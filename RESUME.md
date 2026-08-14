@@ -2,11 +2,13 @@
 
 ## 项目名称
 
-基于 ColQwen2 Late Interaction 的多领域 PDF 视觉检索与多模态 RAG 系统
+基于 ColQwen2 的多领域 PDF 视觉检索与多模态问答
+
+项目地址：[GitHub - visual-pdf-retrieval-colqwen2](https://github.com/weibolin10-byte/visual-pdf-retrieval-colqwen2)
 
 ## 简历版本
 
-- 基于 ColQwen2 构建无需 OCR 的 PDF 页面级视觉检索系统，将论文、财报、公共报告和技术手册等 30 份文档共 2312 页编码为多向量索引，并通过 MaxSim Late Interaction 完成跨模态查询匹配；RTX 5090 上索引构建耗时 200.5 秒。
+- 基于 ColQwen2 构建主检索流程无需 OCR 的 PDF 页面级视觉检索原型，将论文、财报、公共报告和技术手册等 30 份文档共 2312 页编码为多向量索引，并通过 MaxSim Late Interaction 完成跨模态查询匹配；RTX 5090 上索引构建耗时 200.5 秒。
 - 提前确定 40 条问题及其准确页码，覆盖图表、财务表格、架构图、引脚图和机械尺寸图；ColQwen2 达到 Page Recall@1 0.90、Recall@5 1.00、MRR 0.9437，相较 PDF 原生文字层 BM25 和真实 EasyOCR+BM25，Recall@1 分别提升 12.5 和 15 个百分点。
 - 构建 ColQwen2、PDF文字层BM25、EasyOCR+BM25 三路对照测试，并集成 Qwen2.5-VL 与页码引用；在 16 条答案评测中，将 12 个可回答问题拆成 61 个关键事实，事实正确率 75.41%，4 个语料外问题全部正确拒答，同时定位复杂表格错行和错误页引用等主要失败模式。
 
