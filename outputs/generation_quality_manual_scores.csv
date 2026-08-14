@@ -1,0 +1,17 @@
+﻿query_id,answerable,total_required_facts,correct_fact_count,completeness_score_0_to_2,page_support_score_0_to_2,notes
+A01,true,5,5,2,2,五项金额均与特斯拉第94页表格一致
+A02,true,5,0,0,0,正确页未进入Top5因此模型拒答；没有完成可回答问题
+A03,true,4,3,2,1,iPhone、Services和总额正确；Services增量应为10969而不是11969百万美元
+A04,true,4,4,2,2,两项相似度和两项成本节省比均正确
+A05,true,6,6,2,2,三个训练目标、四项结果和最终损失均正确
+A06,true,4,2,2,1,事实性和具体性正确；77.8%与46.8%是RAG-Token行，RAG-Sequence应为83.5%与53.8%
+A07,true,4,1,2,1,只有东亚和太平洋引用占比37.1%正确；三个论文发表占比读成了另一组数据
+A08,true,5,2,2,0,两个增长率及下行方向错误；只答对贸易或政策不确定性以及地缘政治风险类别，且引用页不支持这些陈述
+A09,true,3,3,2,2,两个增长率和不含印度时更低均正确
+A10,true,6,6,2,2,strapping pin映射以及GPIO0和GPIO2默认配置均正确
+A11,true,7,6,2,1,其余信息正确；配置项应为dtparam=i2c_vc=on而不是dt_param=i2c_vc=on
+A12,true,8,8,2,2,处理器、存储、引脚数和输入电压均正确
+U01,false,0,,,,语料无亚马逊财报，模型正确拒答
+U02,false,0,,,,语料无GPT-5训练论文，模型正确拒答
+U03,false,0,,,,语料无法国2025官方人口数据，模型正确拒答
+U04,false,0,,,,语料无iPhone 16 Pro硬件手册，模型正确拒答

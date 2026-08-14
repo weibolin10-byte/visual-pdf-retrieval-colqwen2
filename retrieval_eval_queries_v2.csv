@@ -1,0 +1,21 @@
+query_id,difficulty,domain,query,expected_pdf
+E01,easy,paper,How does ColPali use late interaction to retrieve visually rich document pages?,paper_colpali.pdf
+E02,easy,public_report,What is the global progress on the Sustainable Development Goals in 2024?,report_un_sdg_2024.pdf
+E03,easy,technical_manual,"What are the connectors, interfaces, and mechanical specifications of Raspberry Pi 5?",manual_raspberry_pi_5.pdf
+E04,easy,financial_report,What were Apple's 2024 net sales and how did performance differ across products and services?,finance_apple_2024.pdf
+E05,easy,financial_report,How did Tesla's automotive revenue operating income and profitability change in 2024?,finance_tesla_2024.pdf
+E06,easy,public_report,What is the 3i strategy for countries seeking to escape the middle-income trap?,report_world_bank_wdr_2024.pdf
+E07,easy,paper,What improvements does Qwen2.5-VL introduce for visual localization document understanding and long video comprehension?,paper_qwen25_vl.pdf
+E08,easy,paper,How does LayoutLMv3 use unified text and image masking for document AI pre-training?,paper_layoutlmv3.pdf
+E09,easy,technical_manual,"What are the ESP32 wireless connectivity, power supply, memory, and peripheral specifications?",manual_esp32.pdf
+E10,easy,technical_manual,What are the H100 NVL memory bandwidth power PCIe and NVLink specifications?,manual_nvidia_h100_nvl.pdf
+H01,hard,paper,Which OCR-free retrieval architecture projects vision-language token embeddings into a 128-dimensional space and scores pages with MaxSim?,paper_colpali.pdf
+H02,hard,public_report,Which report says only 17 percent of assessable targets are on track while nearly half show minimal or moderate progress?,report_un_sdg_2024.pdf
+H03,hard,technical_manual,Which board exposes two four-lane MIPI camera or display transceivers and a PCIe 2.0 interface through FFC connectors?,manual_raspberry_pi_5.pdf
+H04,hard,financial_report,Which filing reports about 164000 full-time-equivalent employees and organizes segments into Americas Europe Greater China Japan and Rest of Asia Pacific?,finance_apple_2024.pdf
+H05,hard,financial_report,Which filing separates revenue among automotive energy generation and storage and services and other?,finance_tesla_2024.pdf
+H06,hard,public_report,Which report recommends sequencing investment technology infusion and innovation according to a country's income level?,report_world_bank_wdr_2024.pdf
+H07,hard,paper,Which vision-language model combines dynamic resolution dynamic frame-rate sampling and object grounding with coordinates?,paper_qwen25_vl.pdf
+H08,hard,paper,Which document AI pre-training method jointly masks text tokens and image patches and adds a word-patch alignment objective?,paper_layoutlmv3.pdf
+H09,hard,technical_manual,Which SoC combines 2.4 GHz Wi-Fi and Bluetooth with Xtensa LX6 cores and an ultra-low-power coprocessor?,manual_esp32.pdf
+H10,hard,technical_manual,Which accelerator provides 94 GB of HBM3 nearly 3938 GB/s memory bandwidth and 600 GB/s bidirectional NVLink bandwidth?,manual_nvidia_h100_nvl.pdf

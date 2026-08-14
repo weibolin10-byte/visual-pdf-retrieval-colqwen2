@@ -1,0 +1,11 @@
+query_id,domain,query,expected_pdf
+Q01,paper,How does ColPali use late interaction to retrieve visually rich document pages?,paper_colpali.pdf
+Q02,public_report,What is the global progress on the Sustainable Development Goals in 2024?,report_un_sdg_2024.pdf
+Q03,technical_manual,"What are the connectors, interfaces, and mechanical specifications of Raspberry Pi 5?",manual_raspberry_pi_5.pdf
+Q04,financial_report,What were Apple's 2024 net sales and how did performance differ across products and services?,finance_apple_2024.pdf
+Q05,financial_report,How did Tesla's automotive revenue operating income and profitability change in 2024?,finance_tesla_2024.pdf
+Q06,public_report,What is the 3i strategy for countries seeking to escape the middle-income trap?,report_world_bank_wdr_2024.pdf
+Q07,paper,What improvements does Qwen2.5-VL introduce for visual localization document understanding and long video comprehension?,paper_qwen25_vl.pdf
+Q08,paper,How does LayoutLMv3 use unified text and image masking for document AI pre-training?,paper_layoutlmv3.pdf
+Q09,technical_manual,"What are the ESP32 wireless connectivity, power supply, memory, and peripheral specifications?",manual_esp32.pdf
+Q10,technical_manual,What are the H100 NVL memory bandwidth power PCIe and NVLink specifications?,manual_nvidia_h100_nvl.pdf

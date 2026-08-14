@@ -1,0 +1,41 @@
+query_id,difficulty,domain,query,expected_pdf
+E11,easy,paper,How does ColBERT use contextualized token embeddings and late interaction for efficient passage retrieval?,paper_colbert.pdf
+E12,easy,paper,How does retrieval-augmented generation combine a pretrained sequence-to-sequence model with dense passage retrieval for knowledge-intensive NLP?,paper_rag.pdf
+E13,easy,paper,How does CLIP learn transferable visual representations from hundreds of millions of image-text pairs and perform zero-shot classification?,paper_clip.pdf
+E14,easy,paper,How does Donut perform OCR-free visual document understanding and avoid OCR errors and processing costs?,paper_donut.pdf
+E15,easy,paper,What new multilingual and realistic visual document retrieval tasks are introduced in the ViDoRe Benchmark V2?,paper_vidore_v2.pdf
+E16,easy,paper,How does RouteLLM learn to route queries between stronger and weaker language models to balance quality and cost?,paper_routellm.pdf
+E17,easy,paper,How does MInference accelerate long-context LLM prefilling with dynamic sparse attention?,paper_minference.pdf
+E18,easy,financial_report,What were NVIDIA's fiscal 2025 total revenue and Data Center revenue and how did they change from the prior year?,finance_nvidia_2025.pdf
+E19,easy,financial_report,What were Meta's 2024 total revenue and advertising revenue and how did Family of Apps and Reality Labs perform?,finance_meta_2024.pdf
+E20,easy,financial_report,What were Microsoft's fiscal 2024 revenue and operating income and how did its three operating segments perform?,finance_microsoft_2024.pdf
+E21,easy,public_report,《2025年人工智能指数报告》如何总结人工智能在技术性能、投资、政策和教育方面的全球趋势？,report_ai_index_2025_zh.pdf
+E22,easy,public_report,What global health trends does the 2024 WHO statistics report identify across SDG indicators and life expectancy after COVID-19?,report_who_health_2024.pdf
+E23,easy,public_report,What does the June 2025 Global Economic Prospects report forecast for global growth amid trade tensions and policy uncertainty?,report_world_bank_gep_2025.pdf
+E24,easy,technical_manual,"What power, PCIe, HDMI, USB, Ethernet, camera, and display interfaces are provided by the Raspberry Pi Compute Module 4 IO Board?",manual_raspberry_pi_cm4_io.pdf
+E25,easy,technical_manual,"What GPU, memory, networking, storage, and system specifications are listed for NVIDIA DGX H100?",manual_nvidia_dgx_h100.pdf
+E26,easy,technical_manual,"What microcontroller, memory, operating voltage, analog, CAN, and USB capabilities does the Arduino UNO R4 Minima provide?",manual_arduino_uno_r4_minima.pdf
+E27,easy,technical_manual,"What FRAM, low-power, LEA accelerator, memory, and peripheral features are provided by the MSP430FR5994 microcontroller?",manual_ti_msp430fr5994.pdf
+E28,easy,technical_manual,"What CPU, Wi-Fi, Bluetooth LE, vector instruction, security, memory, and peripheral features does the ESP32-S3 provide?",manual_esp32_s3.pdf
+E29,easy,technical_manual,"What sensor, resolution, autofocus, HDR, lens, and field-of-view options are provided by Raspberry Pi Camera Module 3?",manual_raspberry_pi_camera_3.pdf
+E30,easy,technical_manual,"What Sub-1 GHz, 2.4 GHz, integrated power amplifier, processor, memory, and low-power features does the CC1352P wireless MCU provide?",manual_ti_cc1352p.pdf
+H11,hard,paper,Which BERT-based passage-search paper keeps a 128-dimensional representation for every query and document token and applies a MaxSim late-interaction operator?,paper_colbert.pdf
+H12,hard,paper,Which system combines parametric sequence-to-sequence memory with a non-parametric dense vector index and proposes both Sequence and Token marginalization variants?,paper_rag.pdf
+H13,hard,paper,Which visual representation method trains on 400 million image-text pairs and constructs zero-shot classifiers from natural-language class prompts?,paper_clip.pdf
+H14,hard,paper,Which OCR-free document model pairs a Swin Transformer image encoder with a BART-style text decoder and introduces a synthetic document generator?,paper_donut.pdf
+H15,hard,paper,Which benchmark follows a first version where leading systems exceeded 90 percent nDCG@5 and adds blind contextual long and cross-document queries across four multilingual datasets?,paper_vidore_v2.pdf
+H16,hard,paper,Which routing method learns from human preference data to select between a strong and a weak language model and studies transfer when the model pair changes?,paper_routellm.pdf
+H17,hard,paper,Which long-context inference method assigns A-shape Vertical-Slash or Block-Sparse patterns to attention heads and dynamically builds sparse indices during prefilling?,paper_minference.pdf
+H18,hard,financial_report,Which annual filing reports approximately 130.5 billion dollars of fiscal-year revenue and describes the transition from Hopper to Blackwell systems under export-control risks?,finance_nvidia_2025.pdf
+H19,hard,financial_report,Which filing organizes its business around Family of Apps and Reality Labs and analyzes advertising revenue using ad impressions and average price per ad?,finance_meta_2024.pdf
+H20,hard,financial_report,Which annual report divides operations into Productivity and Business Processes Intelligent Cloud and More Personal Computing?,finance_microsoft_2024.pdf
+H21,hard,public_report,哪份中文报告同时指出前沿模型训练计算量持续增长、模型推理成本快速下降，并比较各国人工智能立法和私人投资？,report_ai_index_2025_zh.pdf
+H22,hard,public_report,Which annual health report reviews more than 50 indicators from the SDGs and WHO programme of work and highlights COVID-19's effect on life expectancy and healthy life expectancy?,report_who_health_2024.pdf
+H23,hard,public_report,Which report projects global growth of about 2.3 percent in 2025 and describes it as the weakest pace since 2008 outside global recessions?,report_world_bank_gep_2025.pdf
+H24,hard,technical_manual,Which carrier board exposes a single-lane PCIe Gen 2 socket two full-size HDMI connectors Gigabit Ethernet with PoE support and dual camera and display connectors for a compute module?,manual_raspberry_pi_cm4_io.pdf
+H25,hard,technical_manual,Which integrated AI system combines eight H100 GPUs 640 GB of total GPU memory fourth-generation NVSwitch fabric and ConnectX-7 networking?,manual_nvidia_dgx_h100.pdf
+H26,hard,technical_manual,Which 5 V board uses a 48 MHz Renesas RA4M1 Cortex-M4 with 256 KB flash and 32 KB SRAM and adds a DAC CAN bus and USB HID support?,manual_arduino_uno_r4_minima.pdf
+H27,hard,technical_manual,Which ultra-low-power MCU family combines up to 256 KB FRAM a Low-Energy Accelerator AES and a 12-bit ADC?,manual_ti_msp430fr5994.pdf
+H28,hard,technical_manual,Which SoC combines dual Xtensa LX7 cores 2.4 GHz Wi-Fi Bluetooth LE 5 vector instructions and native USB OTG and USB Serial JTAG?,manual_esp32_s3.pdf
+H29,hard,technical_manual,Which camera module uses the 12-megapixel Sony IMX708 sensor with phase-detection autofocus HDR and standard or wide field-of-view variants?,manual_raspberry_pi_camera_3.pdf
+H30,hard,technical_manual,Which wireless MCU combines an Arm Cortex-M4F a programmable sensor controller concurrent Sub-1 GHz and 2.4 GHz support and an integrated power amplifier up to plus 20 dBm?,manual_ti_cc1352p.pdf

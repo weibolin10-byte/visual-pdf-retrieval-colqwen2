@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+
+.env
+.env.*
+!.env.example
+
+# Generated corpus and model artifacts
+data/
+*.pt
+*.safetensors
+*.part
+
+# Large or temporary evaluation exports
+*.tar.gz
+outputs/*bundle*.tar.gz
+outputs/page_eval_candidates.html
+outputs/page_eval_contact_sheets/
+outputs/easyocr_smoke.jsonl

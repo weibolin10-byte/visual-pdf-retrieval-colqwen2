@@ -1,0 +1,1700 @@
+{
+  "metrics": {
+    "queries": 40,
+    "recall_at_1": 1.0,
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "pages": 2312,
+    "documents": 30,
+    "elapsed_seconds_including_model_load": 3.29
+  },
+  "metrics_by_difficulty": {
+    "easy": {
+      "queries": 20,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0
+    },
+    "hard": {
+      "queries": 20,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0
+    }
+  },
+  "metrics_by_domain": {
+    "financial_report": {
+      "queries": 6,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0
+    },
+    "paper": {
+      "queries": 14,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0
+    },
+    "public_report": {
+      "queries": 6,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0
+    },
+    "technical_manual": {
+      "queries": 14,
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0
+    }
+  },
+  "results": [
+    {
+      "query_id": "E11",
+      "difficulty": "easy",
+      "domain": "paper",
+      "query": "How does ColBERT use contextualized token embeddings and late interaction for efficient passage retrieval?",
+      "expected_pdf": "paper_colbert.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_colbert.pdf",
+          "best_page": 1,
+          "score": 21.625
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 23,
+          "score": 21.0
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_vidore_v2.pdf",
+          "best_page": 6,
+          "score": 15.375
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 4,
+          "score": 14.875
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_rag.pdf",
+          "best_page": 12,
+          "score": 14.75
+        }
+      ]
+    },
+    {
+      "query_id": "E12",
+      "difficulty": "easy",
+      "domain": "paper",
+      "query": "How does retrieval-augmented generation combine a pretrained sequence-to-sequence model with dense passage retrieval for knowledge-intensive NLP?",
+      "expected_pdf": "paper_rag.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_rag.pdf",
+          "best_page": 1,
+          "score": 27.125
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_minference.pdf",
+          "best_page": 18,
+          "score": 21.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 1,
+          "score": 20.25
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_colbert.pdf",
+          "best_page": 3,
+          "score": 18.625
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 438,
+          "score": 18.5
+        }
+      ]
+    },
+    {
+      "query_id": "E13",
+      "difficulty": "easy",
+      "domain": "paper",
+      "query": "How does CLIP learn transferable visual representations from hundreds of millions of image-text pairs and perform zero-shot classification?",
+      "expected_pdf": "paper_clip.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_clip.pdf",
+          "best_page": 2,
+          "score": 25.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 22,
+          "score": 21.5
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 4,
+          "score": 18.125
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 8,
+          "score": 17.375
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_donut.pdf",
+          "best_page": 28,
+          "score": 17.0
+        }
+      ]
+    },
+    {
+      "query_id": "E14",
+      "difficulty": "easy",
+      "domain": "paper",
+      "query": "How does Donut perform OCR-free visual document understanding and avoid OCR errors and processing costs?",
+      "expected_pdf": "paper_donut.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_donut.pdf",
+          "best_page": 1,
+          "score": 21.5
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 3,
+          "score": 16.625
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 10,
+          "score": 16.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_clip.pdf",
+          "best_page": 19,
+          "score": 15.9375
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 2,
+          "score": 15.5625
+        }
+      ]
+    },
+    {
+      "query_id": "E15",
+      "difficulty": "easy",
+      "domain": "paper",
+      "query": "What new multilingual and realistic visual document retrieval tasks are introduced in the ViDoRe Benchmark V2?",
+      "expected_pdf": "paper_vidore_v2.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_vidore_v2.pdf",
+          "best_page": 1,
+          "score": 25.5
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 10,
+          "score": 23.5
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 12,
+          "score": 19.25
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 2,
+          "score": 18.5
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_donut.pdf",
+          "best_page": 8,
+          "score": 17.875
+        }
+      ]
+    },
+    {
+      "query_id": "E16",
+      "difficulty": "easy",
+      "domain": "paper",
+      "query": "How does RouteLLM learn to route queries between stronger and weaker language models to balance quality and cost?",
+      "expected_pdf": "paper_routellm.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_routellm.pdf",
+          "best_page": 1,
+          "score": 25.25
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_colbert.pdf",
+          "best_page": 1,
+          "score": 16.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_minference.pdf",
+          "best_page": 8,
+          "score": 16.5
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "best_page": 95,
+          "score": 16.125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 4,
+          "score": 15.9375
+        }
+      ]
+    },
+    {
+      "query_id": "E17",
+      "difficulty": "easy",
+      "domain": "paper",
+      "query": "How does MInference accelerate long-context LLM prefilling with dynamic sparse attention?",
+      "expected_pdf": "paper_minference.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_minference.pdf",
+          "best_page": 1,
+          "score": 21.625
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 2,
+          "score": 15.5
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_routellm.pdf",
+          "best_page": 6,
+          "score": 14.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 7,
+          "score": 14.3125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 12,
+          "score": 14.3125
+        }
+      ]
+    },
+    {
+      "query_id": "E18",
+      "difficulty": "easy",
+      "domain": "financial_report",
+      "query": "What were NVIDIA's fiscal 2025 total revenue and Data Center revenue and how did they change from the prior year?",
+      "expected_pdf": "finance_nvidia_2025.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 18,
+          "score": 26.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "best_page": 32,
+          "score": 19.5
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "best_page": 35,
+          "score": 19.125
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "best_page": 75,
+          "score": 19.125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_nvidia_dgx_h100.pdf",
+          "best_page": 2,
+          "score": 18.125
+        }
+      ]
+    },
+    {
+      "query_id": "E19",
+      "difficulty": "easy",
+      "domain": "financial_report",
+      "query": "What were Meta's 2024 total revenue and advertising revenue and how did Family of Apps and Reality Labs perform?",
+      "expected_pdf": "finance_meta_2024.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "best_page": 8,
+          "score": 25.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 90,
+          "score": 17.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 60,
+          "score": 16.875
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "best_page": 27,
+          "score": 16.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "best_page": 52,
+          "score": 16.625
+        }
+      ]
+    },
+    {
+      "query_id": "E20",
+      "difficulty": "easy",
+      "domain": "financial_report",
+      "query": "What were Microsoft's fiscal 2024 revenue and operating income and how did its three operating segments perform?",
+      "expected_pdf": "finance_microsoft_2024.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "best_page": 2,
+          "score": 22.5
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 18,
+          "score": 21.0
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "best_page": 123,
+          "score": 18.375
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "best_page": 35,
+          "score": 18.125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "best_page": 24,
+          "score": 17.625
+        }
+      ]
+    },
+    {
+      "query_id": "E21",
+      "difficulty": "easy",
+      "domain": "public_report",
+      "query": "《2025年人工智能指数报告》如何总结人工智能在技术性能、投资、政策和教育方面的全球趋势？",
+      "expected_pdf": "report_ai_index_2025_zh.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 85,
+          "score": 27.25
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "best_page": 5,
+          "score": 20.0
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "best_page": 2,
+          "score": 19.75
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "best_page": 8,
+          "score": 19.375
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "best_page": 83,
+          "score": 19.125
+        }
+      ]
+    },
+    {
+      "query_id": "E22",
+      "difficulty": "easy",
+      "domain": "public_report",
+      "query": "What global health trends does the 2024 WHO statistics report identify across SDG indicators and life expectancy after COVID-19?",
+      "expected_pdf": "report_who_health_2024.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "best_page": 7,
+          "score": 26.875
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "best_page": 14,
+          "score": 24.25
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "best_page": 53,
+          "score": 21.75
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 248,
+          "score": 20.125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_world_bank_wdr_2024.pdf",
+          "best_page": 22,
+          "score": 20.0
+        }
+      ]
+    },
+    {
+      "query_id": "E23",
+      "difficulty": "easy",
+      "domain": "public_report",
+      "query": "What does the June 2025 Global Economic Prospects report forecast for global growth amid trade tensions and policy uncertainty?",
+      "expected_pdf": "report_world_bank_gep_2025.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "best_page": 28,
+          "score": 28.625
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_world_bank_wdr_2024.pdf",
+          "best_page": 23,
+          "score": 24.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "best_page": 26,
+          "score": 21.875
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 111,
+          "score": 19.625
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "best_page": 37,
+          "score": 19.5
+        }
+      ]
+    },
+    {
+      "query_id": "E24",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "query": "What power, PCIe, HDMI, USB, Ethernet, camera, and display interfaces are provided by the Raspberry Pi Compute Module 4 IO Board?",
+      "expected_pdf": "manual_raspberry_pi_cm4_io.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "best_page": 3,
+          "score": 31.5
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_raspberry_pi_5.pdf",
+          "best_page": 2,
+          "score": 27.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 4,
+          "score": 24.875
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "best_page": 24,
+          "score": 24.0
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "best_page": 2,
+          "score": 24.0
+        }
+      ]
+    },
+    {
+      "query_id": "E25",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "query": "What GPU, memory, networking, storage, and system specifications are listed for NVIDIA DGX H100?",
+      "expected_pdf": "manual_nvidia_dgx_h100.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_nvidia_dgx_h100.pdf",
+          "best_page": 1,
+          "score": 27.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "best_page": 8,
+          "score": 24.625
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 97,
+          "score": 21.5
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 71,
+          "score": 20.875
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 18,
+          "score": 19.875
+        }
+      ]
+    },
+    {
+      "query_id": "E26",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "query": "What microcontroller, memory, operating voltage, analog, CAN, and USB capabilities does the Arduino UNO R4 Minima provide?",
+      "expected_pdf": "manual_arduino_uno_r4_minima.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "best_page": 2,
+          "score": 30.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "best_page": 1,
+          "score": 21.125
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_ti_msp430fr5994.pdf",
+          "best_page": 1,
+          "score": 20.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 2,
+          "score": 19.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_esp32.pdf",
+          "best_page": 15,
+          "score": 19.625
+        }
+      ]
+    },
+    {
+      "query_id": "E27",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "query": "What FRAM, low-power, LEA accelerator, memory, and peripheral features are provided by the MSP430FR5994 microcontroller?",
+      "expected_pdf": "manual_ti_msp430fr5994.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_ti_msp430fr5994.pdf",
+          "best_page": 2,
+          "score": 31.125
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 2,
+          "score": 25.125
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "best_page": 1,
+          "score": 24.5
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "best_page": 2,
+          "score": 22.625
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_esp32.pdf",
+          "best_page": 2,
+          "score": 22.375
+        }
+      ]
+    },
+    {
+      "query_id": "E28",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "query": "What CPU, Wi-Fi, Bluetooth LE, vector instruction, security, memory, and peripheral features does the ESP32-S3 provide?",
+      "expected_pdf": "manual_esp32_s3.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 2,
+          "score": 29.875
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_esp32.pdf",
+          "best_page": 3,
+          "score": 27.5
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_ti_msp430fr5994.pdf",
+          "best_page": 66,
+          "score": 22.875
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "best_page": 2,
+          "score": 22.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_raspberry_pi_5.pdf",
+          "best_page": 3,
+          "score": 22.625
+        }
+      ]
+    },
+    {
+      "query_id": "E29",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "query": "What sensor, resolution, autofocus, HDR, lens, and field-of-view options are provided by Raspberry Pi Camera Module 3?",
+      "expected_pdf": "manual_raspberry_pi_camera_3.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "best_page": 3,
+          "score": 27.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_raspberry_pi_5.pdf",
+          "best_page": 2,
+          "score": 21.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "best_page": 3,
+          "score": 20.125
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 52,
+          "score": 19.125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 381,
+          "score": 17.625
+        }
+      ]
+    },
+    {
+      "query_id": "E30",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "query": "What Sub-1 GHz, 2.4 GHz, integrated power amplifier, processor, memory, and low-power features does the CC1352P wireless MCU provide?",
+      "expected_pdf": "manual_ti_cc1352p.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "best_page": 1,
+          "score": 33.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 2,
+          "score": 27.125
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_esp32.pdf",
+          "best_page": 3,
+          "score": 24.375
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_ti_msp430fr5994.pdf",
+          "best_page": 66,
+          "score": 24.125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "best_page": 2,
+          "score": 23.375
+        }
+      ]
+    },
+    {
+      "query_id": "H11",
+      "difficulty": "hard",
+      "domain": "paper",
+      "query": "Which BERT-based passage-search paper keeps a 128-dimensional representation for every query and document token and applies a MaxSim late-interaction operator?",
+      "expected_pdf": "paper_colbert.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_colbert.pdf",
+          "best_page": 1,
+          "score": 26.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 23,
+          "score": 26.0
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_rag.pdf",
+          "best_page": 4,
+          "score": 20.875
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 3,
+          "score": 20.5
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_routellm.pdf",
+          "best_page": 3,
+          "score": 19.875
+        }
+      ]
+    },
+    {
+      "query_id": "H12",
+      "difficulty": "hard",
+      "domain": "paper",
+      "query": "Which system combines parametric sequence-to-sequence memory with a non-parametric dense vector index and proposes both Sequence and Token marginalization variants?",
+      "expected_pdf": "paper_rag.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_rag.pdf",
+          "best_page": 3,
+          "score": 21.25
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_donut.pdf",
+          "best_page": 5,
+          "score": 18.5
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 8,
+          "score": 18.375
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 3,
+          "score": 17.875
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 3,
+          "score": 17.875
+        }
+      ]
+    },
+    {
+      "query_id": "H13",
+      "difficulty": "hard",
+      "domain": "paper",
+      "query": "Which visual representation method trains on 400 million image-text pairs and constructs zero-shot classifiers from natural-language class prompts?",
+      "expected_pdf": "paper_clip.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_clip.pdf",
+          "best_page": 2,
+          "score": 22.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_donut.pdf",
+          "best_page": 5,
+          "score": 18.875
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 8,
+          "score": 18.5
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 8,
+          "score": 18.5
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 3,
+          "score": 17.875
+        }
+      ]
+    },
+    {
+      "query_id": "H14",
+      "difficulty": "hard",
+      "domain": "paper",
+      "query": "Which OCR-free document model pairs a Swin Transformer image encoder with a BART-style text decoder and introduces a synthetic document generator?",
+      "expected_pdf": "paper_donut.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_donut.pdf",
+          "best_page": 5,
+          "score": 24.5
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 7,
+          "score": 20.0
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 5,
+          "score": 19.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 2,
+          "score": 19.25
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_rag.pdf",
+          "best_page": 2,
+          "score": 19.25
+        }
+      ]
+    },
+    {
+      "query_id": "H15",
+      "difficulty": "hard",
+      "domain": "paper",
+      "query": "Which benchmark follows a first version where leading systems exceeded 90 percent nDCG@5 and adds blind contextual long and cross-document queries across four multilingual datasets?",
+      "expected_pdf": "paper_vidore_v2.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_vidore_v2.pdf",
+          "best_page": 1,
+          "score": 29.125
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_colpali.pdf",
+          "best_page": 4,
+          "score": 24.375
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 21,
+          "score": 22.25
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_minference.pdf",
+          "best_page": 18,
+          "score": 21.875
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 426,
+          "score": 21.25
+        }
+      ]
+    },
+    {
+      "query_id": "H16",
+      "difficulty": "hard",
+      "domain": "paper",
+      "query": "Which routing method learns from human preference data to select between a strong and a weak language model and studies transfer when the model pair changes?",
+      "expected_pdf": "paper_routellm.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_routellm.pdf",
+          "best_page": 2,
+          "score": 24.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_rag.pdf",
+          "best_page": 9,
+          "score": 20.375
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_clip.pdf",
+          "best_page": 16,
+          "score": 18.75
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_minference.pdf",
+          "best_page": 12,
+          "score": 18.125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 423,
+          "score": 18.125
+        }
+      ]
+    },
+    {
+      "query_id": "H17",
+      "difficulty": "hard",
+      "domain": "paper",
+      "query": "Which long-context inference method assigns A-shape Vertical-Slash or Block-Sparse patterns to attention heads and dynamically builds sparse indices during prefilling?",
+      "expected_pdf": "paper_minference.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_minference.pdf",
+          "best_page": 4,
+          "score": 29.125
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "best_page": 3,
+          "score": 19.5
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 4,
+          "score": 18.875
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_routellm.pdf",
+          "best_page": 14,
+          "score": 18.0
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_rag.pdf",
+          "best_page": 10,
+          "score": 17.875
+        }
+      ]
+    },
+    {
+      "query_id": "H18",
+      "difficulty": "hard",
+      "domain": "financial_report",
+      "query": "Which annual filing reports approximately 130.5 billion dollars of fiscal-year revenue and describes the transition from Hopper to Blackwell systems under export-control risks?",
+      "expected_pdf": "finance_nvidia_2025.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 128,
+          "score": 22.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "best_page": 2,
+          "score": 19.0
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "best_page": 31,
+          "score": 19.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "best_page": 8,
+          "score": 18.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "best_page": 1,
+          "score": 18.625
+        }
+      ]
+    },
+    {
+      "query_id": "H19",
+      "difficulty": "hard",
+      "domain": "financial_report",
+      "query": "Which filing organizes its business around Family of Apps and Reality Labs and analyzes advertising revenue using ad impressions and average price per ad?",
+      "expected_pdf": "finance_meta_2024.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "best_page": 74,
+          "score": 25.625
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "best_page": 27,
+          "score": 16.125
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "best_page": 5,
+          "score": 15.9375
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "best_page": 35,
+          "score": 15.8125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 112,
+          "score": 15.6875
+        }
+      ]
+    },
+    {
+      "query_id": "H20",
+      "difficulty": "hard",
+      "domain": "financial_report",
+      "query": "Which annual report divides operations into Productivity and Business Processes Intelligent Cloud and More Personal Computing?",
+      "expected_pdf": "finance_microsoft_2024.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "best_page": 32,
+          "score": 20.25
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "best_page": 4,
+          "score": 15.5625
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 128,
+          "score": 15.125
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "best_page": 35,
+          "score": 14.6875
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "best_page": 5,
+          "score": 13.9375
+        }
+      ]
+    },
+    {
+      "query_id": "H21",
+      "difficulty": "hard",
+      "domain": "public_report",
+      "query": "哪份中文报告同时指出前沿模型训练计算量持续增长、模型推理成本快速下降，并比较各国人工智能立法和私人投资？",
+      "expected_pdf": "report_ai_index_2025_zh.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 5,
+          "score": 22.375
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 96,
+          "score": 17.625
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "best_page": 3,
+          "score": 17.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_qwen25_vl.pdf",
+          "best_page": 2,
+          "score": 17.375
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "best_page": 174,
+          "score": 17.125
+        }
+      ]
+    },
+    {
+      "query_id": "H22",
+      "difficulty": "hard",
+      "domain": "public_report",
+      "query": "Which annual health report reviews more than 50 indicators from the SDGs and WHO programme of work and highlights COVID-19's effect on life expectancy and healthy life expectancy?",
+      "expected_pdf": "report_who_health_2024.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "best_page": 9,
+          "score": 33.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "best_page": 14,
+          "score": 26.125
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "best_page": 190,
+          "score": 23.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_world_bank_wdr_2024.pdf",
+          "best_page": 29,
+          "score": 20.5
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 8,
+          "score": 19.75
+        }
+      ]
+    },
+    {
+      "query_id": "H23",
+      "difficulty": "hard",
+      "domain": "public_report",
+      "query": "Which report projects global growth of about 2.3 percent in 2025 and describes it as the weakest pace since 2008 outside global recessions?",
+      "expected_pdf": "report_world_bank_gep_2025.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "best_page": 19,
+          "score": 32.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "best_page": 26,
+          "score": 26.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "report_world_bank_wdr_2024.pdf",
+          "best_page": 21,
+          "score": 26.125
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "best_page": 14,
+          "score": 23.875
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 264,
+          "score": 22.25
+        }
+      ]
+    },
+    {
+      "query_id": "H24",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "query": "Which carrier board exposes a single-lane PCIe Gen 2 socket two full-size HDMI connectors Gigabit Ethernet with PoE support and dual camera and display connectors for a compute module?",
+      "expected_pdf": "manual_raspberry_pi_cm4_io.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "best_page": 5,
+          "score": 32.5
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_raspberry_pi_5.pdf",
+          "best_page": 3,
+          "score": 29.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 4,
+          "score": 26.25
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "best_page": 5,
+          "score": 26.0
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_esp32.pdf",
+          "best_page": 41,
+          "score": 24.875
+        }
+      ]
+    },
+    {
+      "query_id": "H25",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "query": "Which integrated AI system combines eight H100 GPUs 640 GB of total GPU memory fourth-generation NVSwitch fabric and ConnectX-7 networking?",
+      "expected_pdf": "manual_nvidia_dgx_h100.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_nvidia_dgx_h100.pdf",
+          "best_page": 1,
+          "score": 29.375
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "best_page": 5,
+          "score": 26.375
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "best_page": 97,
+          "score": 23.75
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 4,
+          "score": 23.625
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "best_page": 71,
+          "score": 23.375
+        }
+      ]
+    },
+    {
+      "query_id": "H26",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "query": "Which 5 V board uses a 48 MHz Renesas RA4M1 Cortex-M4 with 256 KB flash and 32 KB SRAM and adds a DAC CAN bus and USB HID support?",
+      "expected_pdf": "manual_arduino_uno_r4_minima.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "best_page": 1,
+          "score": 35.25
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "best_page": 4,
+          "score": 31.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 4,
+          "score": 30.25
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_ti_msp430fr5994.pdf",
+          "best_page": 3,
+          "score": 30.0
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_esp32.pdf",
+          "best_page": 4,
+          "score": 29.5
+        }
+      ]
+    },
+    {
+      "query_id": "H27",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "query": "Which ultra-low-power MCU family combines up to 256 KB FRAM a Low-Energy Accelerator AES and a 12-bit ADC?",
+      "expected_pdf": "manual_ti_msp430fr5994.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_ti_msp430fr5994.pdf",
+          "best_page": 66,
+          "score": 28.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "best_page": 1,
+          "score": 27.25
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 2,
+          "score": 25.25
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "best_page": 2,
+          "score": 24.625
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_esp32.pdf",
+          "best_page": 31,
+          "score": 23.75
+        }
+      ]
+    },
+    {
+      "query_id": "H28",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "query": "Which SoC combines dual Xtensa LX7 cores 2.4 GHz Wi-Fi Bluetooth LE 5 vector instructions and native USB OTG and USB Serial JTAG?",
+      "expected_pdf": "manual_esp32_s3.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 2,
+          "score": 31.875
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_esp32.pdf",
+          "best_page": 2,
+          "score": 26.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_raspberry_pi_5.pdf",
+          "best_page": 3,
+          "score": 23.25
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "best_page": 5,
+          "score": 21.875
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "best_page": 1,
+          "score": 21.875
+        }
+      ]
+    },
+    {
+      "query_id": "H29",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "query": "Which camera module uses the 12-megapixel Sony IMX708 sensor with phase-detection autofocus HDR and standard or wide field-of-view variants?",
+      "expected_pdf": "manual_raspberry_pi_camera_3.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "best_page": 2,
+          "score": 34.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 52,
+          "score": 23.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_raspberry_pi_5.pdf",
+          "best_page": 2,
+          "score": 23.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "best_page": 7,
+          "score": 20.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_ti_msp430fr5994.pdf",
+          "best_page": 1,
+          "score": 19.75
+        }
+      ]
+    },
+    {
+      "query_id": "H30",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "query": "Which wireless MCU combines an Arm Cortex-M4F a programmable sensor controller concurrent Sub-1 GHz and 2.4 GHz support and an integrated power amplifier up to plus 20 dBm?",
+      "expected_pdf": "manual_ti_cc1352p.pdf",
+      "expected_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_documents": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "best_page": 1,
+          "score": 36.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "best_page": 2,
+          "score": 31.875
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "best_page": 2,
+          "score": 30.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_esp32.pdf",
+          "best_page": 3,
+          "score": 29.375
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_ti_msp430fr5994.pdf",
+          "best_page": 1,
+          "score": 29.0
+        }
+      ]
+    }
+  ]
+}

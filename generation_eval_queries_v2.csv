@@ -1,0 +1,5 @@
+query_id,domain,query,expected_pdf
+G01,paper,"ColPali中的后期交互如何计算，它为什么适合视觉文档检索？",paper_colpali.pdf
+G02,financial_report,"苹果公司2024财年的总净销售额是多少？哪些产品或服务推动或抵消了同比变化？",finance_apple_2024.pdf
+G03,public_report,"解释世界银行建议的投资、技术注入和创新三阶段路径，以及不同收入阶段应如何采用它们。",report_world_bank_wdr_2024.pdf
+G04,technical_manual,"概括H100 NVL的显存、PCIe接口、供电和NVLink规格。",manual_nvidia_h100_nvl.pdf

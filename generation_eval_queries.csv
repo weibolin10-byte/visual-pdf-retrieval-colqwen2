@@ -1,0 +1,5 @@
+query_id,domain,query,expected_pdf
+G01,paper,"How does late interaction work in ColPali, and why is it useful for visual document retrieval?",paper_colpali.pdf
+G02,financial_report,"What were Apple's total net sales in 2024, and which products or services drove the year-over-year change?",finance_apple_2024.pdf
+G03,public_report,"Explain the investment, infusion, and innovation sequence recommended for escaping the middle-income trap.",report_world_bank_wdr_2024.pdf
+G04,technical_manual,"Summarize the H100 NVL memory, PCIe, power, and NVLink specifications.",manual_nvidia_h100_nvl.pdf

@@ -1,0 +1,1978 @@
+{
+  "metrics": {
+    "queries": 20,
+    "page_recall_at_1": 0.85,
+    "page_recall_at_3": 0.95,
+    "page_recall_at_5": 1.0,
+    "page_recall_at_10": 1.0,
+    "page_mrr": 0.9125,
+    "median_gold_page_rank": 1.0,
+    "pages": 2312,
+    "documents": 30,
+    "elapsed_seconds_including_model_load": 2.95
+  },
+  "metrics_by_difficulty": {
+    "easy": {
+      "queries": 10,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1.0
+    },
+    "hard": {
+      "queries": 10,
+      "page_recall_at_1": 0.7,
+      "page_recall_at_3": 0.9,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 0.825,
+      "median_gold_page_rank": 1.0
+    }
+  },
+  "metrics_by_domain": {
+    "financial_report": {
+      "queries": 5,
+      "page_recall_at_1": 0.8,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 0.9,
+      "median_gold_page_rank": 1
+    },
+    "paper": {
+      "queries": 5,
+      "page_recall_at_1": 0.8,
+      "page_recall_at_3": 0.8,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 0.85,
+      "median_gold_page_rank": 1
+    },
+    "public_report": {
+      "queries": 5,
+      "page_recall_at_1": 0.8,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 0.9,
+      "median_gold_page_rank": 1
+    },
+    "technical_manual": {
+      "queries": 5,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    }
+  },
+  "metrics_by_visual_type": {
+    "ablation_bar_charts": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "ablation_plots": {
+      "queries": 1,
+      "page_recall_at_1": 0.0,
+      "page_recall_at_3": 0.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 0.25,
+      "median_gold_page_rank": 4
+    },
+    "architecture_diagram": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "bar_charts": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "financial_table": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "infographic": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "interpretability_figure": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "line_chart": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "mechanical_drawing": {
+      "queries": 2,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1.0
+    },
+    "multi_panel_chart": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "performance_plots": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "pin_diagram": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "pin_table": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "scatter_plots": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "segment_metrics": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "segment_table": {
+      "queries": 2,
+      "page_recall_at_1": 0.5,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 0.75,
+      "median_gold_page_rank": 1.5
+    },
+    "specification_sheet": {
+      "queries": 1,
+      "page_recall_at_1": 1.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 1.0,
+      "median_gold_page_rank": 1
+    },
+    "trend_charts": {
+      "queries": 1,
+      "page_recall_at_1": 0.0,
+      "page_recall_at_3": 1.0,
+      "page_recall_at_5": 1.0,
+      "page_recall_at_10": 1.0,
+      "page_mrr": 0.5,
+      "median_gold_page_rank": 2
+    }
+  },
+  "results": [
+    {
+      "query_id": "V01",
+      "candidate_id": "C002",
+      "difficulty": "easy",
+      "domain": "financial_report",
+      "visual_type": "financial_table",
+      "query": "Find the page containing a blue table that compares Tesla automotive revenues regulatory credits leasing services and energy generation and storage for 2024 versus 2023.",
+      "expected_pdf": "finance_tesla_2024.pdf",
+      "expected_pages": "52",
+      "gold_pages": [
+        52
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 52,
+          "page_id": "finance_tesla_2024__p0052",
+          "score": 26.75
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 40,
+          "page_id": "finance_tesla_2024__p0040",
+          "score": 25.25
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 41,
+          "page_id": "finance_tesla_2024__p0041",
+          "score": 25.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 58,
+          "page_id": "finance_tesla_2024__p0058",
+          "score": 25.0
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 60,
+          "page_id": "finance_tesla_2024__p0060",
+          "score": 24.875
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 62,
+          "page_id": "finance_tesla_2024__p0062",
+          "score": 24.75
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 42,
+          "page_id": "finance_tesla_2024__p0042",
+          "score": 24.5
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 94,
+          "page_id": "finance_tesla_2024__p0094",
+          "score": 24.125
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 14,
+          "page_id": "finance_tesla_2024__p0014",
+          "score": 24.0
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 5,
+          "page_id": "finance_tesla_2024__p0005",
+          "score": 24.0
+        }
+      ]
+    },
+    {
+      "query_id": "V02",
+      "candidate_id": "C003",
+      "difficulty": "easy",
+      "domain": "financial_report",
+      "visual_type": "bar_charts",
+      "query": "Find the page titled Trends in Our Revenue by User Geography with four quarterly bar charts for United States and Canada Europe Asia-Pacific and Rest of World.",
+      "expected_pdf": "finance_meta_2024.pdf",
+      "expected_pages": "65",
+      "gold_pages": [
+        65
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 65,
+          "page_id": "finance_meta_2024__p0065",
+          "score": 29.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 68,
+          "page_id": "finance_meta_2024__p0068",
+          "score": 27.25
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 69,
+          "page_id": "finance_meta_2024__p0069",
+          "score": 26.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 102,
+          "page_id": "finance_meta_2024__p0102",
+          "score": 24.0
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 124,
+          "page_id": "finance_meta_2024__p0124",
+          "score": 21.875
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 81,
+          "page_id": "finance_microsoft_2024__p0081",
+          "score": 21.375
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 7,
+          "page_id": "finance_meta_2024__p0007",
+          "score": 21.25
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 74,
+          "page_id": "finance_meta_2024__p0074",
+          "score": 21.125
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 94,
+          "page_id": "finance_tesla_2024__p0094",
+          "score": 20.5
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 66,
+          "page_id": "finance_meta_2024__p0066",
+          "score": 20.5
+        }
+      ]
+    },
+    {
+      "query_id": "V03",
+      "candidate_id": "C004",
+      "difficulty": "hard",
+      "domain": "financial_report",
+      "visual_type": "segment_metrics",
+      "query": "Find the page that combines More Personal Computing operating metrics such as Windows OEM Devices Xbox and search advertising with a fiscal 2024 summary results table.",
+      "expected_pdf": "finance_microsoft_2024.pdf",
+      "expected_pages": "31",
+      "gold_pages": [
+        31
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 31,
+          "page_id": "finance_microsoft_2024__p0031",
+          "score": 27.375
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 27,
+          "page_id": "finance_microsoft_2024__p0027",
+          "score": 24.875
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 80,
+          "page_id": "finance_microsoft_2024__p0080",
+          "score": 23.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 32,
+          "page_id": "finance_microsoft_2024__p0032",
+          "score": 22.5
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 19,
+          "page_id": "finance_microsoft_2024__p0019",
+          "score": 22.375
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 64,
+          "page_id": "finance_microsoft_2024__p0064",
+          "score": 21.5
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 29,
+          "page_id": "finance_microsoft_2024__p0029",
+          "score": 21.375
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 33,
+          "page_id": "finance_microsoft_2024__p0033",
+          "score": 21.25
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 13,
+          "page_id": "finance_microsoft_2024__p0013",
+          "score": 20.5
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 18,
+          "page_id": "finance_nvidia_2025__p0018",
+          "score": 20.125
+        }
+      ]
+    },
+    {
+      "query_id": "V04",
+      "candidate_id": "C005",
+      "difficulty": "easy",
+      "domain": "financial_report",
+      "visual_type": "segment_table",
+      "query": "Find the page with Apple's 2024 2023 and 2022 net sales and operating income broken down by Americas Europe Greater China Japan and Rest of Asia Pacific.",
+      "expected_pdf": "finance_apple_2024.pdf",
+      "expected_pages": "50",
+      "gold_pages": [
+        50
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 50,
+          "page_id": "finance_apple_2024__p0050",
+          "score": 33.5
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 25,
+          "page_id": "finance_apple_2024__p0025",
+          "score": 33.0
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 5,
+          "page_id": "finance_apple_2024__p0005",
+          "score": 33.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 49,
+          "page_id": "finance_apple_2024__p0049",
+          "score": 31.5
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 39,
+          "page_id": "finance_apple_2024__p0039",
+          "score": 30.25
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 26,
+          "page_id": "finance_apple_2024__p0026",
+          "score": 30.0
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 102,
+          "page_id": "finance_meta_2024__p0102",
+          "score": 29.0
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 38,
+          "page_id": "finance_apple_2024__p0038",
+          "score": 28.75
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 32,
+          "page_id": "finance_apple_2024__p0032",
+          "score": 28.25
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "finance_meta_2024.pdf",
+          "page_number": 74,
+          "page_id": "finance_meta_2024__p0074",
+          "score": 27.875
+        }
+      ]
+    },
+    {
+      "query_id": "V05",
+      "candidate_id": "C011",
+      "difficulty": "hard",
+      "domain": "financial_report",
+      "visual_type": "segment_table",
+      "query": "Find the consolidated financial-statement page that compares Compute and Networking Graphics All Other and consolidated revenue and operating income across fiscal 2025 2024 and 2023.",
+      "expected_pdf": "finance_nvidia_2025.pdf",
+      "expected_pages": "170",
+      "gold_pages": [
+        170
+      ],
+      "gold_page_rank": 2,
+      "reciprocal_rank": 0.5,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 18,
+          "page_id": "finance_nvidia_2025__p0018",
+          "score": 33.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 170,
+          "page_id": "finance_nvidia_2025__p0170",
+          "score": 32.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 133,
+          "page_id": "finance_nvidia_2025__p0133",
+          "score": 32.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 128,
+          "page_id": "finance_nvidia_2025__p0128",
+          "score": 31.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 171,
+          "page_id": "finance_nvidia_2025__p0171",
+          "score": 31.125
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 172,
+          "page_id": "finance_nvidia_2025__p0172",
+          "score": 30.875
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 130,
+          "page_id": "finance_nvidia_2025__p0130",
+          "score": 29.5
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 157,
+          "page_id": "finance_nvidia_2025__p0157",
+          "score": 29.375
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 165,
+          "page_id": "finance_nvidia_2025__p0165",
+          "score": 29.375
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "finance_nvidia_2025.pdf",
+          "page_number": 134,
+          "page_id": "finance_nvidia_2025__p0134",
+          "score": 28.625
+        }
+      ]
+    },
+    {
+      "query_id": "V06",
+      "candidate_id": "C013",
+      "difficulty": "hard",
+      "domain": "paper",
+      "visual_type": "performance_plots",
+      "query": "Find the paper page that places a data-efficiency comparison of zero-shot and linear-probe transfer beside a plot of zero-shot performance versus fully supervised baselines.",
+      "expected_pdf": "paper_clip.pdf",
+      "expected_pages": "10",
+      "gold_pages": [
+        10
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 10,
+          "page_id": "paper_clip__p0010",
+          "score": 28.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 9,
+          "page_id": "paper_clip__p0009",
+          "score": 26.125
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 8,
+          "page_id": "paper_clip__p0008",
+          "score": 26.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 14,
+          "page_id": "paper_clip__p0014",
+          "score": 24.5
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 6,
+          "page_id": "paper_clip__p0006",
+          "score": 24.375
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 15,
+          "page_id": "paper_clip__p0015",
+          "score": 24.375
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 3,
+          "page_id": "paper_clip__p0003",
+          "score": 24.0
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 20,
+          "page_id": "paper_clip__p0020",
+          "score": 23.75
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 17,
+          "page_id": "paper_clip__p0017",
+          "score": 23.75
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 43,
+          "page_id": "paper_clip__p0043",
+          "score": 23.75
+        }
+      ]
+    },
+    {
+      "query_id": "V07",
+      "candidate_id": "C014",
+      "difficulty": "easy",
+      "domain": "paper",
+      "visual_type": "architecture_diagram",
+      "query": "Find Figure 2 comparing representation-based similarity query-document interaction all-to-all interaction and late interaction with MaxSim diagrams.",
+      "expected_pdf": "paper_colbert.pdf",
+      "expected_pages": "2",
+      "gold_pages": [
+        2
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_colbert.pdf",
+          "page_number": 2,
+          "page_id": "paper_colbert__p0002",
+          "score": 24.125
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_colbert.pdf",
+          "page_number": 4,
+          "page_id": "paper_colbert__p0004",
+          "score": 21.5
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_colbert.pdf",
+          "page_number": 3,
+          "page_id": "paper_colbert__p0003",
+          "score": 20.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 23,
+          "page_id": "paper_colpali__p0023",
+          "score": 20.0
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_colbert.pdf",
+          "page_number": 5,
+          "page_id": "paper_colbert__p0005",
+          "score": 20.0
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "paper_colbert.pdf",
+          "page_number": 9,
+          "page_id": "paper_colbert__p0009",
+          "score": 19.125
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 5,
+          "page_id": "paper_colpali__p0005",
+          "score": 17.625
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 3,
+          "page_id": "paper_colpali__p0003",
+          "score": 17.125
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 18,
+          "page_id": "paper_colpali__p0018",
+          "score": 16.625
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "paper_colbert.pdf",
+          "page_number": 1,
+          "page_id": "paper_colbert__p0001",
+          "score": 16.5
+        }
+      ]
+    },
+    {
+      "query_id": "V08",
+      "candidate_id": "C016",
+      "difficulty": "hard",
+      "domain": "paper",
+      "visual_type": "ablation_plots",
+      "query": "Find the long-context inference paper page containing several retrieval line plots and a Needle in a Haystack attention heatmap.",
+      "expected_pdf": "paper_minference.pdf",
+      "expected_pages": "8",
+      "gold_pages": [
+        8
+      ],
+      "gold_page_rank": 4,
+      "reciprocal_rank": 0.25,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 1,
+          "page_id": "paper_minference__p0001",
+          "score": 18.5
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 6,
+          "page_id": "paper_minference__p0006",
+          "score": 18.25
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 18,
+          "page_id": "paper_minference__p0018",
+          "score": 18.125
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 8,
+          "page_id": "paper_minference__p0008",
+          "score": 17.5
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 2,
+          "page_id": "paper_minference__p0002",
+          "score": 17.25
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 20,
+          "page_id": "paper_minference__p0020",
+          "score": 16.875
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 19,
+          "page_id": "paper_minference__p0019",
+          "score": 16.75
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 21,
+          "page_id": "paper_minference__p0021",
+          "score": 16.5
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 3,
+          "page_id": "paper_minference__p0003",
+          "score": 16.375
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "paper_minference.pdf",
+          "page_number": 10,
+          "page_id": "paper_minference__p0010",
+          "score": 16.25
+        }
+      ]
+    },
+    {
+      "query_id": "V09",
+      "candidate_id": "C019",
+      "difficulty": "easy",
+      "domain": "paper",
+      "visual_type": "interpretability_figure",
+      "query": "Find the page showing both a token-pooling performance curve and an interpretability example that highlights document-image patches for individual query terms.",
+      "expected_pdf": "paper_colpali.pdf",
+      "expected_pages": "9",
+      "gold_pages": [
+        9
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 9,
+          "page_id": "paper_colpali__p0009",
+          "score": 26.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 8,
+          "page_id": "paper_colpali__p0008",
+          "score": 22.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 3,
+          "page_id": "paper_colpali__p0003",
+          "score": 19.75
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 23,
+          "page_id": "paper_colpali__p0023",
+          "score": 19.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_colbert.pdf",
+          "page_number": 4,
+          "page_id": "paper_colbert__p0004",
+          "score": 19.5
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 4,
+          "page_id": "paper_clip__p0004",
+          "score": 19.5
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "paper_colbert.pdf",
+          "page_number": 5,
+          "page_id": "paper_colbert__p0005",
+          "score": 19.375
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 6,
+          "page_id": "paper_colpali__p0006",
+          "score": 19.0
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "paper_colpali.pdf",
+          "page_number": 12,
+          "page_id": "paper_colpali__p0012",
+          "score": 19.0
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "paper_colbert.pdf",
+          "page_number": 3,
+          "page_id": "paper_colbert__p0003",
+          "score": 18.875
+        }
+      ]
+    },
+    {
+      "query_id": "V10",
+      "candidate_id": "C022",
+      "difficulty": "easy",
+      "domain": "paper",
+      "visual_type": "ablation_bar_charts",
+      "query": "Find Figure 7 with bar-chart analyses of pretraining strategy image backbone and input resolution for CORD and DocVQA.",
+      "expected_pdf": "paper_donut.pdf",
+      "expected_pages": "12",
+      "gold_pages": [
+        12
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "paper_donut.pdf",
+          "page_number": 12,
+          "page_id": "paper_donut__p0012",
+          "score": 26.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "paper_donut.pdf",
+          "page_number": 11,
+          "page_id": "paper_donut__p0011",
+          "score": 21.875
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 2,
+          "page_id": "paper_layoutlmv3__p0002",
+          "score": 21.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "paper_donut.pdf",
+          "page_number": 10,
+          "page_id": "paper_donut__p0010",
+          "score": 20.625
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 5,
+          "page_id": "paper_layoutlmv3__p0005",
+          "score": 20.625
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 4,
+          "page_id": "paper_layoutlmv3__p0004",
+          "score": 20.125
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 6,
+          "page_id": "paper_layoutlmv3__p0006",
+          "score": 20.0
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 7,
+          "page_id": "paper_layoutlmv3__p0007",
+          "score": 19.375
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "paper_donut.pdf",
+          "page_number": 13,
+          "page_id": "paper_donut__p0013",
+          "score": 19.0
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "paper_donut.pdf",
+          "page_number": 27,
+          "page_id": "paper_donut__p0027",
+          "score": 19.0
+        }
+      ]
+    },
+    {
+      "query_id": "V11",
+      "candidate_id": "C025",
+      "difficulty": "hard",
+      "domain": "public_report",
+      "visual_type": "multi_panel_chart",
+      "query": "Find the South Asia recent-developments page with four small panels for activity private-sector credit trade balance and remittance inflows.",
+      "expected_pdf": "report_world_bank_gep_2025.pdf",
+      "expected_pages": "108",
+      "gold_pages": [
+        108
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 108,
+          "page_id": "report_world_bank_gep_2025__p0108",
+          "score": 22.375
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 107,
+          "page_id": "report_world_bank_gep_2025__p0107",
+          "score": 21.5
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 84,
+          "page_id": "report_world_bank_gep_2025__p0084",
+          "score": 21.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 13,
+          "page_id": "report_world_bank_gep_2025__p0013",
+          "score": 20.625
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 83,
+          "page_id": "report_world_bank_gep_2025__p0083",
+          "score": 20.25
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 10,
+          "page_id": "report_world_bank_gep_2025__p0010",
+          "score": 20.25
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 115,
+          "page_id": "report_world_bank_gep_2025__p0115",
+          "score": 20.0
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 49,
+          "page_id": "report_world_bank_gep_2025__p0049",
+          "score": 19.5
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 116,
+          "page_id": "report_world_bank_gep_2025__p0116",
+          "score": 19.375
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 99,
+          "page_id": "report_world_bank_gep_2025__p0099",
+          "score": 19.375
+        }
+      ]
+    },
+    {
+      "query_id": "V12",
+      "candidate_id": "C026",
+      "difficulty": "hard",
+      "domain": "public_report",
+      "visual_type": "scatter_plots",
+      "query": "Find Figure 4.11 containing multiple scatter plots of inequality in self-reported noncommunicable diseases and selected risk factors in European countries.",
+      "expected_pdf": "report_who_health_2024.pdf",
+      "expected_pages": "88",
+      "gold_pages": [
+        88
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 88,
+          "page_id": "report_who_health_2024__p0088",
+          "score": 26.25
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 81,
+          "page_id": "report_who_health_2024__p0081",
+          "score": 22.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 87,
+          "page_id": "report_who_health_2024__p0087",
+          "score": 21.25
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 82,
+          "page_id": "report_who_health_2024__p0082",
+          "score": 20.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 83,
+          "page_id": "report_who_health_2024__p0083",
+          "score": 20.5
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 20,
+          "page_id": "report_who_health_2024__p0020",
+          "score": 19.0
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 79,
+          "page_id": "report_who_health_2024__p0079",
+          "score": 18.5
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 55,
+          "page_id": "report_who_health_2024__p0055",
+          "score": 18.375
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 21,
+          "page_id": "report_who_health_2024__p0021",
+          "score": 18.25
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 24,
+          "page_id": "report_who_health_2024__p0024",
+          "score": 18.25
+        }
+      ]
+    },
+    {
+      "query_id": "V13",
+      "candidate_id": "C027",
+      "difficulty": "easy",
+      "domain": "public_report",
+      "visual_type": "line_chart",
+      "query": "查找展示2013至2023年按发表平台划分的计算机科学领域人工智能论文占比变化折线图的页面。",
+      "expected_pdf": "report_ai_index_2025_zh.pdf",
+      "expected_pages": "32",
+      "gold_pages": [
+        32
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 32,
+          "page_id": "report_ai_index_2025_zh__p0032",
+          "score": 27.25
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 34,
+          "page_id": "report_ai_index_2025_zh__p0034",
+          "score": 26.0
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 36,
+          "page_id": "report_ai_index_2025_zh__p0036",
+          "score": 25.875
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 31,
+          "page_id": "report_ai_index_2025_zh__p0031",
+          "score": 25.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 37,
+          "page_id": "report_ai_index_2025_zh__p0037",
+          "score": 25.5
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 39,
+          "page_id": "report_ai_index_2025_zh__p0039",
+          "score": 25.25
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 30,
+          "page_id": "report_ai_index_2025_zh__p0030",
+          "score": 25.125
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 35,
+          "page_id": "report_ai_index_2025_zh__p0035",
+          "score": 25.0
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 33,
+          "page_id": "report_ai_index_2025_zh__p0033",
+          "score": 24.625
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 13,
+          "page_id": "report_ai_index_2025_zh__p0013",
+          "score": 23.875
+        }
+      ]
+    },
+    {
+      "query_id": "V14",
+      "candidate_id": "C028",
+      "difficulty": "easy",
+      "domain": "public_report",
+      "visual_type": "infographic",
+      "query": "Find the infographic page summarizing the current status of the SDGs with a 17 percent on-track pie chart a goal-by-goal progress dashboard and data-coverage bars.",
+      "expected_pdf": "report_un_sdg_2024.pdf",
+      "expected_pages": "6",
+      "gold_pages": [
+        6
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "page_number": 6,
+          "page_id": "report_un_sdg_2024__p0006",
+          "score": 30.5
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 59,
+          "page_id": "report_who_health_2024__p0059",
+          "score": 25.625
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "page_number": 4,
+          "page_id": "report_un_sdg_2024__p0004",
+          "score": 25.25
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "page_number": 48,
+          "page_id": "report_un_sdg_2024__p0048",
+          "score": 25.125
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "page_number": 2,
+          "page_id": "report_un_sdg_2024__p0002",
+          "score": 25.0
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 89,
+          "page_id": "report_who_health_2024__p0089",
+          "score": 24.875
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "page_number": 47,
+          "page_id": "report_un_sdg_2024__p0047",
+          "score": 24.75
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 9,
+          "page_id": "report_who_health_2024__p0009",
+          "score": 24.25
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "page_number": 46,
+          "page_id": "report_un_sdg_2024__p0046",
+          "score": 24.25
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "report_un_sdg_2024.pdf",
+          "page_number": 44,
+          "page_id": "report_un_sdg_2024__p0044",
+          "score": 23.875
+        }
+      ]
+    },
+    {
+      "query_id": "V15",
+      "candidate_id": "C036",
+      "difficulty": "hard",
+      "domain": "public_report",
+      "visual_type": "trend_charts",
+      "query": "Find the page that compares progress toward WHO's three billion targets with three 2018-to-2023 trend charts and begins the Healthier population billion section.",
+      "expected_pdf": "report_who_health_2024.pdf",
+      "expected_pages": "64",
+      "gold_pages": [
+        64
+      ],
+      "gold_page_rank": 2,
+      "reciprocal_rank": 0.5,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 6,
+          "page_id": "report_who_health_2024__p0006",
+          "score": 31.25
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 64,
+          "page_id": "report_who_health_2024__p0064",
+          "score": 31.125
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 70,
+          "page_id": "report_who_health_2024__p0070",
+          "score": 29.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 69,
+          "page_id": "report_who_health_2024__p0069",
+          "score": 28.5
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 63,
+          "page_id": "report_who_health_2024__p0063",
+          "score": 28.25
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 65,
+          "page_id": "report_who_health_2024__p0065",
+          "score": 28.0
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 7,
+          "page_id": "report_who_health_2024__p0007",
+          "score": 27.75
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 11,
+          "page_id": "report_who_health_2024__p0011",
+          "score": 27.0
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 68,
+          "page_id": "report_who_health_2024__p0068",
+          "score": 26.5
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "report_who_health_2024.pdf",
+          "page_number": 72,
+          "page_id": "report_who_health_2024__p0072",
+          "score": 26.125
+        }
+      ]
+    },
+    {
+      "query_id": "V16",
+      "candidate_id": "C038",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "visual_type": "pin_table",
+      "query": "Find the ESP32-S3 pin-overview page explaining pin multiplexing and listing pin number pin name pin type and power-domain assignments.",
+      "expected_pdf": "manual_esp32_s3.pdf",
+      "expected_pages": "16",
+      "gold_pages": [
+        16
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "page_number": 16,
+          "page_id": "manual_esp32_s3__p0016",
+          "score": 29.125
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 17,
+          "page_id": "manual_esp32__p0017",
+          "score": 27.875
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "page_number": 79,
+          "page_id": "manual_esp32_s3__p0079",
+          "score": 27.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 61,
+          "page_id": "manual_esp32__p0061",
+          "score": 26.75
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "page_number": 10,
+          "page_id": "manual_esp32_s3__p0010",
+          "score": 26.625
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "page_number": 25,
+          "page_id": "manual_esp32_s3__p0025",
+          "score": 26.5
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 20,
+          "page_id": "manual_esp32__p0020",
+          "score": 26.25
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 9,
+          "page_id": "manual_esp32__p0009",
+          "score": 26.25
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "page_number": 7,
+          "page_id": "manual_esp32_s3__p0007",
+          "score": 26.25
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 14,
+          "page_id": "manual_esp32__p0014",
+          "score": 26.125
+        }
+      ]
+    },
+    {
+      "query_id": "V17",
+      "candidate_id": "C041",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "visual_type": "pin_diagram",
+      "query": "Find the top-view 48-pin RGZ package diagram that labels separate 2.4 GHz Sub-1 GHz and 20 dBm RF pins for a multi-band wireless MCU.",
+      "expected_pdf": "manual_ti_cc1352p.pdf",
+      "expected_pages": "8",
+      "gold_pages": [
+        8
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "page_number": 8,
+          "page_id": "manual_ti_cc1352p__p0008",
+          "score": 31.375
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "page_number": 93,
+          "page_id": "manual_ti_cc1352p__p0093",
+          "score": 29.75
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "page_number": 1,
+          "page_id": "manual_ti_cc1352p__p0001",
+          "score": 29.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "page_number": 9,
+          "page_id": "manual_ti_cc1352p__p0009",
+          "score": 28.625
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_ti_msp430fr5994.pdf",
+          "page_number": 13,
+          "page_id": "manual_ti_msp430fr5994__p0013",
+          "score": 28.625
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "page_number": 5,
+          "page_id": "manual_ti_cc1352p__p0005",
+          "score": 28.25
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "page_number": 7,
+          "page_id": "manual_ti_cc1352p__p0007",
+          "score": 27.25
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "page_number": 94,
+          "page_id": "manual_ti_cc1352p__p0094",
+          "score": 27.0
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "page_number": 15,
+          "page_id": "manual_ti_cc1352p__p0015",
+          "score": 26.75
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "manual_ti_cc1352p.pdf",
+          "page_number": 3,
+          "page_id": "manual_ti_cc1352p__p0003",
+          "score": 26.375
+        }
+      ]
+    },
+    {
+      "query_id": "V18",
+      "candidate_id": "C044",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "visual_type": "mechanical_drawing",
+      "query": "Find the Raspberry Pi board physical-specification drawing with its top and side dimensions in millimetres.",
+      "expected_pdf": "manual_raspberry_pi_5.pdf",
+      "expected_pages": "4",
+      "gold_pages": [
+        4
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_raspberry_pi_5.pdf",
+          "page_number": 4,
+          "page_id": "manual_raspberry_pi_5__p0004",
+          "score": 22.0
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 4,
+          "page_id": "manual_raspberry_pi_camera_3__p0004",
+          "score": 21.125
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 10,
+          "page_id": "manual_raspberry_pi_cm4_io__p0010",
+          "score": 18.75
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 3,
+          "page_id": "manual_raspberry_pi_camera_3__p0003",
+          "score": 18.0
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 2,
+          "page_id": "manual_raspberry_pi_camera_3__p0002",
+          "score": 17.75
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 6,
+          "page_id": "manual_raspberry_pi_camera_3__p0006",
+          "score": 17.5
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "manual_raspberry_pi_5.pdf",
+          "page_number": 1,
+          "page_id": "manual_raspberry_pi_5__p0001",
+          "score": 17.125
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 14,
+          "page_id": "manual_raspberry_pi_cm4_io__p0014",
+          "score": 17.125
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 11,
+          "page_id": "manual_raspberry_pi_cm4_io__p0011",
+          "score": 17.125
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 12,
+          "page_id": "manual_raspberry_pi_cm4_io__p0012",
+          "score": 17.0
+        }
+      ]
+    },
+    {
+      "query_id": "V19",
+      "candidate_id": "C045",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "visual_type": "mechanical_drawing",
+      "query": "Find the physical-dimension page that places standard-lens and wide-lens camera module drawings side by side with different angular fields of view.",
+      "expected_pdf": "manual_raspberry_pi_camera_3.pdf",
+      "expected_pages": "4",
+      "gold_pages": [
+        4
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 4,
+          "page_id": "manual_raspberry_pi_camera_3__p0004",
+          "score": 24.375
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 5,
+          "page_id": "manual_raspberry_pi_camera_3__p0005",
+          "score": 23.125
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 2,
+          "page_id": "manual_raspberry_pi_camera_3__p0002",
+          "score": 21.0
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 1,
+          "page_id": "manual_raspberry_pi_camera_3__p0001",
+          "score": 20.375
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 3,
+          "page_id": "manual_raspberry_pi_camera_3__p0003",
+          "score": 20.25
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "manual_raspberry_pi_camera_3.pdf",
+          "page_number": 6,
+          "page_id": "manual_raspberry_pi_camera_3__p0006",
+          "score": 19.75
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "manual_esp32_s3.pdf",
+          "page_number": 52,
+          "page_id": "manual_esp32_s3__p0052",
+          "score": 18.375
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 3,
+          "page_id": "manual_raspberry_pi_cm4_io__p0003",
+          "score": 17.875
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "manual_raspberry_pi_5.pdf",
+          "page_number": 3,
+          "page_id": "manual_raspberry_pi_5__p0003",
+          "score": 17.5
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 7,
+          "page_id": "manual_raspberry_pi_cm4_io__p0007",
+          "score": 17.375
+        }
+      ]
+    },
+    {
+      "query_id": "V20",
+      "candidate_id": "C046",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "visual_type": "specification_sheet",
+      "query": "Find the one-page AI-system datasheet with a product photograph and a specification column listing eight H100 GPUs 640 GB total GPU memory networking storage and system power.",
+      "expected_pdf": "manual_nvidia_dgx_h100.pdf",
+      "expected_pages": "1",
+      "gold_pages": [
+        1
+      ],
+      "gold_page_rank": 1,
+      "reciprocal_rank": 1.0,
+      "top_pages": [
+        {
+          "rank": 1,
+          "pdf_filename": "manual_nvidia_dgx_h100.pdf",
+          "page_number": 1,
+          "page_id": "manual_nvidia_dgx_h100__p0001",
+          "score": 30.625
+        },
+        {
+          "rank": 2,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "page_number": 8,
+          "page_id": "manual_nvidia_h100_nvl__p0008",
+          "score": 27.625
+        },
+        {
+          "rank": 3,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "page_number": 7,
+          "page_id": "manual_nvidia_h100_nvl__p0007",
+          "score": 27.625
+        },
+        {
+          "rank": 4,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 71,
+          "page_id": "report_ai_index_2025_zh__p0071",
+          "score": 26.875
+        },
+        {
+          "rank": 5,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "page_number": 9,
+          "page_id": "manual_nvidia_h100_nvl__p0009",
+          "score": 26.75
+        },
+        {
+          "rank": 6,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 70,
+          "page_id": "report_ai_index_2025_zh__p0070",
+          "score": 26.75
+        },
+        {
+          "rank": 7,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "page_number": 14,
+          "page_id": "manual_nvidia_h100_nvl__p0014",
+          "score": 26.5
+        },
+        {
+          "rank": 8,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "page_number": 5,
+          "page_id": "manual_nvidia_h100_nvl__p0005",
+          "score": 26.5
+        },
+        {
+          "rank": 9,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "page_number": 3,
+          "page_id": "manual_nvidia_h100_nvl__p0003",
+          "score": 26.375
+        },
+        {
+          "rank": 10,
+          "pdf_filename": "manual_nvidia_h100_nvl.pdf",
+          "page_number": 4,
+          "page_id": "manual_nvidia_h100_nvl__p0004",
+          "score": 26.375
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1201 @@
+{
+  "automatic_metrics": {
+    "queries": 16,
+    "answerable_queries": 12,
+    "unanswerable_queries": 4,
+    "top_k": 5,
+    "retrieval_hit_at_k_answerable": 0.9167,
+    "valid_citation_format_rate_answerable": 0.9167,
+    "correct_document_citation_rate_answerable": 0.9167,
+    "correct_page_citation_rate_answerable": 0.6667,
+    "correct_refusal_rate_unanswerable": 1.0,
+    "unsupported_answer_rate_unanswerable": 0.0,
+    "mean_generation_seconds": 2.36
+  },
+  "manually_checked_answer_metrics": {
+    "required_facts": 61,
+    "correct_facts": 46,
+    "key_fact_accuracy": 0.7541,
+    "mean_completeness_score_0_to_2": 1.8333,
+    "answer_completeness_rate": 0.9167,
+    "mean_page_support_score_0_to_2": 1.3333,
+    "page_support_rate": 0.6667
+  },
+  "results": [
+    {
+      "query_id": "A01",
+      "difficulty": "hard",
+      "domain": "financial_report",
+      "answerable": "true",
+      "query": "根据特斯拉分部报告页面，分别给出2024年汽车业务和能源生产及储能业务的收入与毛利润，并给出2024年美国地区收入。",
+      "expected_pdf": "finance_tesla_2024.pdf",
+      "expected_pages": "94",
+      "reference_answer": "2024年汽车业务收入876.04亿美元、毛利润148.10亿美元；能源生产及储能业务收入100.86亿美元、毛利润26.40亿美元；美国地区收入477.25亿美元。",
+      "required_facts": "汽车收入87604百万美元|汽车毛利润14810百万美元|能源收入10086百万美元|能源毛利润2640百万美元|美国收入47725百万美元",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 25.875,
+          "pdf_filename": "finance_tesla_2024.pdf",
+          "page_number": 94,
+          "image_path": "data/pages/finance_tesla_2024/page_0094.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 25.75,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 216,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0216.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 25.625,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 38,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0038.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 25.0,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 260,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0260.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 24.875,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 175,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0175.jpg"
+        }
+      ],
+      "raw_answer": "2024年汽车业务收入为$87,604百万，毛利润为$14,810百万；2024年能源生产及储能业务收入为$10,086百万，毛利润为$2,640百万；2024年美国地区收入为$47,725百万。\n\n支持上述信息的来源是[S1]。",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": true,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "2024年汽车业务收入为$87,604百万，毛利润为$14,810百万；2024年能源生产及储能业务收入为$10,086百万，毛利润为$2,640百万；2024年美国地区收入为$47,725百万。\n\n支持上述信息的来源是[finance_tesla_2024.pdf, PDF p.94]。",
+      "generation_seconds": 2.87,
+      "gold_pages": [
+        94
+      ],
+      "required_fact_list": [
+        "汽车收入87604百万美元",
+        "汽车毛利润14810百万美元",
+        "能源收入10086百万美元",
+        "能源毛利润2640百万美元",
+        "美国收入47725百万美元"
+      ],
+      "manual_notes": "五项金额均与特斯拉第94页表格一致",
+      "correct_fact_count": 5,
+      "total_required_facts": 5,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 2
+    },
+    {
+      "query_id": "A02",
+      "difficulty": "easy",
+      "domain": "financial_report",
+      "answerable": "true",
+      "query": "微软2024财年末三个业务分部的未实现收入分别是多少，总额是多少？页面预计未来12个月确认剩余履约义务收入的比例是多少？",
+      "expected_pdf": "finance_microsoft_2024.pdf",
+      "expected_pages": "73",
+      "reference_answer": "生产力和业务流程308.79亿美元，智能云231.17亿美元，更多个人计算61.88亿美元，总计601.84亿美元；预计未来12个月确认约45%。",
+      "required_facts": "生产力和业务流程30879百万美元|智能云23117百万美元|更多个人计算6188百万美元|总计60184百万美元|未来12个月约45%",
+      "is_answerable": true,
+      "retrieval_hit_at_k": false,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 23.125,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 362,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0362.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 22.75,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 259,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0259.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 22.375,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 220,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0220.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 22.25,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 358,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0358.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 22.125,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 222,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0222.jpg"
+        }
+      ],
+      "raw_answer": "证据不足，无法根据给定页面回答。",
+      "source_ids": [],
+      "invalid_source_ids": [],
+      "citation_format_valid": false,
+      "expected_document_cited": false,
+      "expected_page_cited": false,
+      "refusal_detected": true,
+      "correct_refusal": false,
+      "grounded_answer": "证据不足，无法根据给定页面回答。",
+      "generation_seconds": 1.24,
+      "gold_pages": [
+        73
+      ],
+      "required_fact_list": [
+        "生产力和业务流程30879百万美元",
+        "智能云23117百万美元",
+        "更多个人计算6188百万美元",
+        "总计60184百万美元",
+        "未来12个月约45%"
+      ],
+      "manual_notes": "正确页未进入Top5因此模型拒答；没有完成可回答问题",
+      "correct_fact_count": 0,
+      "total_required_facts": 5,
+      "completeness_score_0_to_2": 0,
+      "page_support_score_0_to_2": 0
+    },
+    {
+      "query_id": "A03",
+      "difficulty": "easy",
+      "domain": "financial_report",
+      "answerable": "true",
+      "query": "苹果2024年的iPhone、Services和总净销售额分别是多少？Services相较2023年增加了多少？",
+      "expected_pdf": "finance_apple_2024.pdf",
+      "expected_pages": "38",
+      "reference_answer": "iPhone净销售额2011.83亿美元，Services为961.69亿美元，总净销售额3910.35亿美元；Services较2023年的852.00亿美元增加109.69亿美元。",
+      "required_facts": "iPhone 201183百万美元|Services 96169百万美元|总净销售额391035百万美元|Services较2023年增加10969百万美元",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 25.375,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 26,
+          "image_path": "data/pages/finance_apple_2024/page_0026.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 23.0,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 25,
+          "image_path": "data/pages/finance_apple_2024/page_0025.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 23.0,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 38,
+          "image_path": "data/pages/finance_apple_2024/page_0038.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 22.5,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 27,
+          "image_path": "data/pages/finance_apple_2024/page_0027.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 21.375,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 5,
+          "image_path": "data/pages/finance_apple_2024/page_0005.jpg"
+        }
+      ],
+      "raw_answer": "2024年，苹果的iPhone净销售额为$201,183百万，Services净销售额为$96,169百万，总净销售额为$391,035百万。Services相较于2023年增加了$11,969百万。\n\n支持此信息的来源是[S1]。",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": false,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "2024年，苹果的iPhone净销售额为$201,183百万，Services净销售额为$96,169百万，总净销售额为$391,035百万。Services相较于2023年增加了$11,969百万。\n\n支持此信息的来源是[finance_apple_2024.pdf, PDF p.26]。",
+      "generation_seconds": 2.41,
+      "gold_pages": [
+        38
+      ],
+      "required_fact_list": [
+        "iPhone 201183百万美元",
+        "Services 96169百万美元",
+        "总净销售额391035百万美元",
+        "Services较2023年增加10969百万美元"
+      ],
+      "manual_notes": "iPhone、Services和总额正确；Services增量应为10969而不是11969百万美元",
+      "correct_fact_count": 3,
+      "total_required_facts": 4,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 1
+    },
+    {
+      "query_id": "A04",
+      "difficulty": "hard",
+      "domain": "paper",
+      "answerable": "true",
+      "query": "RouteLLM页面中，MT Bench与Arena及加入LLM评审数据后的Arena相似度分别是多少？在CPT(50%)和CPT(80%)下，MT Bench的成本节省比分别是多少？",
+      "expected_pdf": "paper_routellm.pdf",
+      "expected_pages": "9",
+      "reference_answer": "MT Bench与Arena的相似度为0.6078，与加入LLM评审数据后的Arena相似度为0.6525；MT Bench在CPT(50%)和CPT(80%)下的成本节省比分别为3.66和2.49。",
+      "required_facts": "Arena相似度0.6078|加入LLM评审数据后0.6525|CPT50为3.66|CPT80为2.49",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 41.25,
+          "pdf_filename": "paper_routellm.pdf",
+          "page_number": 9,
+          "image_path": "data/pages/paper_routellm/page_0009.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 38.75,
+          "pdf_filename": "paper_routellm.pdf",
+          "page_number": 7,
+          "image_path": "data/pages/paper_routellm/page_0007.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 38.5,
+          "pdf_filename": "paper_routellm.pdf",
+          "page_number": 8,
+          "image_path": "data/pages/paper_routellm/page_0008.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 37.5,
+          "pdf_filename": "paper_routellm.pdf",
+          "page_number": 2,
+          "image_path": "data/pages/paper_routellm/page_0002.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 33.25,
+          "pdf_filename": "paper_routellm.pdf",
+          "page_number": 15,
+          "image_path": "data/pages/paper_routellm/page_0015.jpg"
+        }
+      ],
+      "raw_answer": "MT Bench与Arena的相似度为0.6078，在加入LLM评审数据后的Arena的相似度为0.6525。在CPT(50%)下，MT Bench的成本节省比为3.66倍（95% GPT-4质量），在CPT(80%)下，成本节省比为2.49倍。\n\n支持这些信息的来源是[S1]。",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": true,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "MT Bench与Arena的相似度为0.6078，在加入LLM评审数据后的Arena的相似度为0.6525。在CPT(50%)下，MT Bench的成本节省比为3.66倍（95% GPT-4质量），在CPT(80%)下，成本节省比为2.49倍。\n\n支持这些信息的来源是[paper_routellm.pdf, PDF p.9]。",
+      "generation_seconds": 2.77,
+      "gold_pages": [
+        9
+      ],
+      "required_fact_list": [
+        "Arena相似度0.6078",
+        "加入LLM评审数据后0.6525",
+        "CPT50为3.66",
+        "CPT80为2.49"
+      ],
+      "manual_notes": "两项相似度和两项成本节省比均正确",
+      "correct_fact_count": 4,
+      "total_required_facts": 4,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 2
+    },
+    {
+      "query_id": "A05",
+      "difficulty": "hard",
+      "domain": "paper",
+      "answerable": "true",
+      "query": "LayoutLMv3消融表中，加入MLM、MIM和WPA三个目标的模型在FUNSD、CORD、RVL-CDIP和PubLayNet上分别取得什么结果？损失曲线最终约为多少？",
+      "expected_pdf": "paper_layoutlmv3.pdf",
+      "expected_pages": "7",
+      "reference_answer": "模型4使用MLM+MIM+WPA，在FUNSD、CORD、RVL-CDIP和PubLayNet上分别为89.78、96.49、95.53和94.43；损失曲线最终约为0.36。",
+      "required_facts": "MLM+MIM+WPA|FUNSD 89.78|CORD 96.49|RVL-CDIP 95.53|PubLayNet 94.43|最终损失约0.36",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 40.75,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 7,
+          "image_path": "data/pages/paper_layoutlmv3/page_0007.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 36.75,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 2,
+          "image_path": "data/pages/paper_layoutlmv3/page_0002.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 36.25,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 6,
+          "image_path": "data/pages/paper_layoutlmv3/page_0006.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 34.5,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 5,
+          "image_path": "data/pages/paper_layoutlmv3/page_0005.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 34.25,
+          "pdf_filename": "paper_layoutlmv3.pdf",
+          "page_number": 4,
+          "image_path": "data/pages/paper_layoutlmv3/page_0004.jpg"
+        }
+      ],
+      "raw_answer": "加入MLM、MIM和WPA三个目标的模型在FUNSD上的F1值为89.78，在CORD上的F1值为96.49，在RVL-CDIP上的准确率为95.53，在PubLayNet上的MAP值为94.43。损失曲线最终约为0.36。支持这一结论的证据来源于[S1]。",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": true,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "加入MLM、MIM和WPA三个目标的模型在FUNSD上的F1值为89.78，在CORD上的F1值为96.49，在RVL-CDIP上的准确率为95.53，在PubLayNet上的MAP值为94.43。损失曲线最终约为0.36。支持这一结论的证据来源于[paper_layoutlmv3.pdf, PDF p.7]。",
+      "generation_seconds": 2.62,
+      "gold_pages": [
+        7
+      ],
+      "required_fact_list": [
+        "MLM+MIM+WPA",
+        "FUNSD 89.78",
+        "CORD 96.49",
+        "RVL-CDIP 95.53",
+        "PubLayNet 94.43",
+        "最终损失约0.36"
+      ],
+      "manual_notes": "三个训练目标、四项结果和最终损失均正确",
+      "correct_fact_count": 6,
+      "total_required_facts": 6,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 2
+    },
+    {
+      "query_id": "A06",
+      "difficulty": "hard",
+      "domain": "paper",
+      "answerable": "true",
+      "query": "RAG论文的人工评价中，RAG在事实性和具体性上优于BART的比例分别是多少？RAG-Sequence在MSMARCO和Jeopardy问题生成上的distinct tri-gram比例是多少？",
+      "expected_pdf": "paper_rag.pdf",
+      "expected_pages": "8",
+      "reference_answer": "RAG在事实性和具体性上优于BART的比例分别为42.7%和37.4%；RAG-Sequence在MSMARCO和Jeopardy问题生成上的distinct tri-gram比例分别为83.5%和53.8%。",
+      "required_facts": "事实性42.7%|具体性37.4%|MSMARCO 83.5%|Jeopardy 53.8%",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 39.5,
+          "pdf_filename": "paper_rag.pdf",
+          "page_number": 8,
+          "image_path": "data/pages/paper_rag/page_0008.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 36.0,
+          "pdf_filename": "paper_rag.pdf",
+          "page_number": 6,
+          "image_path": "data/pages/paper_rag/page_0006.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 34.5,
+          "pdf_filename": "paper_rag.pdf",
+          "page_number": 7,
+          "image_path": "data/pages/paper_rag/page_0007.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 33.75,
+          "pdf_filename": "paper_rag.pdf",
+          "page_number": 17,
+          "image_path": "data/pages/paper_rag/page_0017.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 33.5,
+          "pdf_filename": "paper_rag.pdf",
+          "page_number": 5,
+          "image_path": "data/pages/paper_rag/page_0005.jpg"
+        }
+      ],
+      "raw_answer": "RAG在事实性上优于BART的比例为42.7%，在具体性上优于BART的比例为37.4%。RAG-Sequence在MSMARCO上的distinct tri-gram比例为77.8%，在Jeopardy问题生成上的distinct tri-gram比例为46.8%。[S1]",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": true,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "RAG在事实性上优于BART的比例为42.7%，在具体性上优于BART的比例为37.4%。RAG-Sequence在MSMARCO上的distinct tri-gram比例为77.8%，在Jeopardy问题生成上的distinct tri-gram比例为46.8%。[paper_rag.pdf, PDF p.8]",
+      "generation_seconds": 2.49,
+      "gold_pages": [
+        8
+      ],
+      "required_fact_list": [
+        "事实性42.7%",
+        "具体性37.4%",
+        "MSMARCO 83.5%",
+        "Jeopardy 53.8%"
+      ],
+      "manual_notes": "事实性和具体性正确；77.8%与46.8%是RAG-Token行，RAG-Sequence应为83.5%与53.8%",
+      "correct_fact_count": 2,
+      "total_required_facts": 4,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 1
+    },
+    {
+      "query_id": "A07",
+      "difficulty": "easy",
+      "domain": "public_report",
+      "answerable": "true",
+      "query": "2023年东亚和太平洋、欧洲和中亚、北美在计算机科学领域人工智能论文发表中的占比分别是多少？东亚和太平洋地区的引用量占比是多少？",
+      "expected_pdf": "report_ai_index_2025_zh.pdf",
+      "expected_pages": "33",
+      "reference_answer": "论文发表占比分别为东亚和太平洋34.46%、欧洲和中亚18.15%、北美10.31%；东亚和太平洋的引用量占比为37.1%。",
+      "required_facts": "东亚和太平洋发表34.46%|欧洲和中亚18.15%|北美10.31%|东亚和太平洋引用37.1%",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 32.5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 34,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0034.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 31.125,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 33,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0033.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 29.25,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 36,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0036.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 29.25,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 35,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0035.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 28.75,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 38,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0038.jpg"
+        }
+      ],
+      "raw_answer": "2023年东亚和太平洋地区在计算机科学领域人工智能论文发表中的占比为37.07%，欧洲和中亚地区的占比为21.88%，北美地区的占比为15.59%。东亚和太平洋地区的引用量占比为37.1%。\n\n支持上述信息的来源是[S1]。",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": false,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "2023年东亚和太平洋地区在计算机科学领域人工智能论文发表中的占比为37.07%，欧洲和中亚地区的占比为21.88%，北美地区的占比为15.59%。东亚和太平洋地区的引用量占比为37.1%。\n\n支持上述信息的来源是[report_ai_index_2025_zh.pdf, PDF p.34]。",
+      "generation_seconds": 2.39,
+      "gold_pages": [
+        33
+      ],
+      "required_fact_list": [
+        "东亚和太平洋发表34.46%",
+        "欧洲和中亚18.15%",
+        "北美10.31%",
+        "东亚和太平洋引用37.1%"
+      ],
+      "manual_notes": "只有东亚和太平洋引用占比37.1%正确；三个论文发表占比读成了另一组数据",
+      "correct_fact_count": 1,
+      "total_required_facts": 4,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 1
+    },
+    {
+      "query_id": "A08",
+      "difficulty": "hard",
+      "domain": "public_report",
+      "answerable": "true",
+      "query": "世界银行全球经济展望页面预计新兴市场和发展中经济体在2025年以及2026至2027年的增长率分别是多少？该页列出的全球前景主要风险方向是什么？",
+      "expected_pdf": "report_world_bank_gep_2025.pdf",
+      "expected_pages": "28",
+      "reference_answer": "新兴市场和发展中经济体预计2025年增长3.8%，2026至2027年小幅升至3.9%；全球前景风险明显偏向下行，贸易紧张、政策不确定性、地缘政治冲突和金融风险可能进一步削弱增长。",
+      "required_facts": "2025年3.8%|2026至2027年3.9%|风险偏向下行|贸易或政策不确定性风险|地缘政治或金融风险",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 34.25,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 110,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0110.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 33.75,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 39,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0039.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 33.5,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 28,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0028.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 33.25,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 53,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0053.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 33.0,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 19,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0019.jpg"
+        }
+      ],
+      "raw_answer": "世界银行全球经济展望页面预计新兴市场和发展中经济体（EMDEs）在2025年的增长率为2.3%，而在2026至2027年间的增长率预计为2.5%。该页列出的全球前景主要风险方向包括贸易紧张加剧、政策不确定性持续存在、地缘政治紧张局势升级以及极端气候事件发生的频率增加。[S1]",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": false,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "世界银行全球经济展望页面预计新兴市场和发展中经济体（EMDEs）在2025年的增长率为2.3%，而在2026至2027年间的增长率预计为2.5%。该页列出的全球前景主要风险方向包括贸易紧张加剧、政策不确定性持续存在、地缘政治紧张局势升级以及极端气候事件发生的频率增加。[report_world_bank_gep_2025.pdf, PDF p.110]",
+      "generation_seconds": 2.87,
+      "gold_pages": [
+        28
+      ],
+      "required_fact_list": [
+        "2025年3.8%",
+        "2026至2027年3.9%",
+        "风险偏向下行",
+        "贸易或政策不确定性风险",
+        "地缘政治或金融风险"
+      ],
+      "manual_notes": "两个增长率及下行方向错误；只答对贸易或政策不确定性以及地缘政治风险类别，且引用页不支持这些陈述",
+      "correct_fact_count": 2,
+      "total_required_facts": 5,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 0
+    },
+    {
+      "query_id": "A09",
+      "difficulty": "easy",
+      "domain": "public_report",
+      "answerable": "true",
+      "query": "南亚展望图预计南亚2025年的增长率是多少，2026至2027年的平均增长率是多少？不含印度的南亚增长与整个南亚相比如何？",
+      "expected_pdf": "report_world_bank_gep_2025.pdf",
+      "expected_pages": "109",
+      "reference_answer": "南亚预计2025年增长5.8%，2026至2027年平均增长6.2%；不含印度时，预测期内的增长率低于整个南亚。",
+      "required_facts": "2025年5.8%|2026至2027年平均6.2%|不含印度增长更低",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 34.5,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 107,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0107.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 33.25,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 109,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0109.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 32.5,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 108,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0108.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 32.25,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 86,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0086.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 32.0,
+          "pdf_filename": "report_world_bank_gep_2025.pdf",
+          "page_number": 110,
+          "image_path": "data/pages/report_world_bank_gep_2025/page_0110.jpg"
+        }
+      ],
+      "raw_answer": "南亚2025年的增长率预计为5.8%，2026-2027年的平均增长率预计为6.2%。不含印度的南亚增长将比整个南亚更弱。这可以从[S2]中的图表2.5.2得出结论。",
+      "source_ids": [
+        "S2"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": true,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "南亚2025年的增长率预计为5.8%，2026-2027年的平均增长率预计为6.2%。不含印度的南亚增长将比整个南亚更弱。这可以从[report_world_bank_gep_2025.pdf, PDF p.109]中的图表2.5.2得出结论。",
+      "generation_seconds": 2.18,
+      "gold_pages": [
+        109
+      ],
+      "required_fact_list": [
+        "2025年5.8%",
+        "2026至2027年平均6.2%",
+        "不含印度增长更低"
+      ],
+      "manual_notes": "两个增长率和不含印度时更低均正确",
+      "correct_fact_count": 3,
+      "total_required_facts": 3,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 2
+    },
+    {
+      "query_id": "A10",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "answerable": "true",
+      "query": "ESP32启动配置中，芯片启动模式、VDD_SDIO电压、U0TXD打印和SDIO Slave时序分别使用哪些strapping pins？表中的GPIO0和GPIO2默认配置与位值是什么？",
+      "expected_pdf": "manual_esp32.pdf",
+      "expected_pages": "22",
+      "reference_answer": "芯片启动模式使用GPIO0和GPIO2，VDD_SDIO使用MTDI，U0TXD打印使用MTDO，SDIO Slave时序使用MTDO和GPIO5；GPIO0默认为上拉且位值1，GPIO2默认为下拉且位值0。",
+      "required_facts": "启动模式GPIO0和GPIO2|VDD_SDIO使用MTDI|U0TXD使用MTDO|SDIO时序使用MTDO和GPIO5|GPIO0上拉位值1|GPIO2下拉位值0",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 40.0,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 22,
+          "image_path": "data/pages/manual_esp32/page_0022.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 35.5,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 9,
+          "image_path": "data/pages/manual_esp32/page_0009.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 34.5,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 21,
+          "image_path": "data/pages/manual_esp32/page_0021.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 34.5,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 17,
+          "image_path": "data/pages/manual_esp32/page_0017.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 34.25,
+          "pdf_filename": "manual_esp32.pdf",
+          "page_number": 24,
+          "image_path": "data/pages/manual_esp32/page_0024.jpg"
+        }
+      ],
+      "raw_answer": "- 芯片启动模式使用GPIO0和GPIO2作为strapping pins。\n- VDD_SDIO电压控制使用MTDI作为strapping pin。\n- U0TXD打印使用MTDO作为strapping pin。\n- SDIO Slave时序使用MTDO和GPIO5作为strapping pins。\n\n表中GPIO0的默认配置为Pull-up，位值为1；GPIO2的默认配置为Pull-down，位值为0；MTDI的默认配置为Pull-down，位值为0；MTDO的默认配置为Pull-up，位值为1；GPIO5的默认配置为Pull-up，位值为1。\n\n支持上述信息的来源是[S1]。",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": true,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "- 芯片启动模式使用GPIO0和GPIO2作为strapping pins。\n- VDD_SDIO电压控制使用MTDI作为strapping pin。\n- U0TXD打印使用MTDO作为strapping pin。\n- SDIO Slave时序使用MTDO和GPIO5作为strapping pins。\n\n表中GPIO0的默认配置为Pull-up，位值为1；GPIO2的默认配置为Pull-down，位值为0；MTDI的默认配置为Pull-down，位值为0；MTDO的默认配置为Pull-up，位值为1；GPIO5的默认配置为Pull-up，位值为1。\n\n支持上述信息的来源是[manual_esp32.pdf, PDF p.22]。",
+      "generation_seconds": 3.79,
+      "gold_pages": [
+        22
+      ],
+      "required_fact_list": [
+        "启动模式GPIO0和GPIO2",
+        "VDD_SDIO使用MTDI",
+        "U0TXD使用MTDO",
+        "SDIO时序使用MTDO和GPIO5",
+        "GPIO0上拉位值1",
+        "GPIO2下拉位值0"
+      ],
+      "manual_notes": "strapping pin映射以及GPIO0和GPIO2默认配置均正确",
+      "correct_fact_count": 6,
+      "total_required_facts": 6,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 2
+    },
+    {
+      "query_id": "A11",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "answerable": "true",
+      "query": "Compute Module 4 IO Board页面中，如何启用RTC的I2C总线、RTC地址是多少，R4和R5分别对应什么IO电压？J2的1-2、3-4和13-14引脚分别有什么作用？",
+      "expected_pdf": "manual_raspberry_pi_cm4_io.pdf",
+      "expected_pages": "8",
+      "reference_answer": "在config.txt中设置dtparam=i2c_vc=on，RTC位于i2c-10的7位地址0x51；R5对应3.3V，移到R4对应1.8V；J2的1-2强制USB启动，3-4对EEPROM写保护，13-14连接按钮可从低功耗模式唤醒CM4。",
+      "required_facts": "dtparam=i2c_vc=on|i2c-10地址0x51|R5为3.3V|R4为1.8V|J2 1-2强制USB启动|J2 3-4写保护EEPROM|J2 13-14唤醒CM4",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 47.0,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 8,
+          "image_path": "data/pages/manual_raspberry_pi_cm4_io/page_0008.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 40.5,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 7,
+          "image_path": "data/pages/manual_raspberry_pi_cm4_io/page_0007.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 38.5,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 5,
+          "image_path": "data/pages/manual_raspberry_pi_cm4_io/page_0005.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 38.5,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 3,
+          "image_path": "data/pages/manual_raspberry_pi_cm4_io/page_0003.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 37.75,
+          "pdf_filename": "manual_raspberry_pi_cm4_io.pdf",
+          "page_number": 13,
+          "image_path": "data/pages/manual_raspberry_pi_cm4_io/page_0013.jpg"
+        }
+      ],
+      "raw_answer": "要启用RTC的I2C总线，需要在config.txt中设置dt_param=i2c_vc=on。RTC的地址是0x51（7位地址）。R4和R5分别对应+1.8V和+3.3V的IO电压。\n\nJ2的1-2引脚用于nRPIBOOT，如果安装了它，则会强制USB启动；如果eMMC损坏，这很有用。3-4引脚用于EEPROM_nWP，如果安装了它，则会写保护CM4上的EEPROM。13-14引脚用于连接一个按钮来唤醒CM4从低功耗模式。它不能用来关闭CM4。\n\n证据来源：[S1]",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": true,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "要启用RTC的I2C总线，需要在config.txt中设置dt_param=i2c_vc=on。RTC的地址是0x51（7位地址）。R4和R5分别对应+1.8V和+3.3V的IO电压。\n\nJ2的1-2引脚用于nRPIBOOT，如果安装了它，则会强制USB启动；如果eMMC损坏，这很有用。3-4引脚用于EEPROM_nWP，如果安装了它，则会写保护CM4上的EEPROM。13-14引脚用于连接一个按钮来唤醒CM4从低功耗模式。它不能用来关闭CM4。\n\n证据来源：[manual_raspberry_pi_cm4_io.pdf, PDF p.8]",
+      "generation_seconds": 3.9,
+      "gold_pages": [
+        8
+      ],
+      "required_fact_list": [
+        "dtparam=i2c_vc=on",
+        "i2c-10地址0x51",
+        "R5为3.3V",
+        "R4为1.8V",
+        "J2 1-2强制USB启动",
+        "J2 3-4写保护EEPROM",
+        "J2 13-14唤醒CM4"
+      ],
+      "manual_notes": "其余信息正确；配置项应为dtparam=i2c_vc=on而不是dt_param=i2c_vc=on",
+      "correct_fact_count": 6,
+      "total_required_facts": 7,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 1
+    },
+    {
+      "query_id": "A12",
+      "difficulty": "easy",
+      "domain": "technical_manual",
+      "answerable": "true",
+      "query": "Arduino UNO R4 Minima使用什么处理器和频率？Flash、SRAM和EEPROM容量分别是多少？数字、模拟和PWM引脚数量分别是多少，推荐输入电压范围是多少？",
+      "expected_pdf": "manual_arduino_uno_r4_minima.pdf",
+      "expected_pages": "2",
+      "reference_answer": "使用48 MHz Arm Cortex-M4处理器；具有256 kB Flash、32 kB SRAM和8 kB EEPROM；14个数字引脚、6个模拟输入、6个PWM引脚；推荐输入电压为6至24 V。",
+      "required_facts": "48MHz Cortex-M4|256kB Flash|32kB SRAM|8kB EEPROM|14个数字引脚|6个模拟引脚|6个PWM引脚|6至24V",
+      "is_answerable": true,
+      "retrieval_hit_at_k": true,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 38.25,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "page_number": 2,
+          "image_path": "data/pages/manual_arduino_uno_r4_minima/page_0002.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 37.25,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "page_number": 21,
+          "image_path": "data/pages/manual_arduino_uno_r4_minima/page_0021.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 35.75,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "page_number": 6,
+          "image_path": "data/pages/manual_arduino_uno_r4_minima/page_0006.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 35.5,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "page_number": 1,
+          "image_path": "data/pages/manual_arduino_uno_r4_minima/page_0001.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 34.75,
+          "pdf_filename": "manual_arduino_uno_r4_minima.pdf",
+          "page_number": 10,
+          "image_path": "data/pages/manual_arduino_uno_r4_minima/page_0010.jpg"
+        }
+      ],
+      "raw_answer": "Arduino UNO R4 Minima使用的是R7FA4M1AB3CFM#AA0处理器，该处理器内嵌了一个48 MHz的Arm® Cortex®-M4微处理器。Flash容量为256 kB，SRAM容量为32 kB，EEPROM容量为8 kB。数字引脚（GPIO）数量为14个，模拟输入引脚（ADC）数量为6个，PWM引脚数量为6个。推荐输入电压范围是6-24 V。证据来源于[S1]。",
+      "source_ids": [
+        "S1"
+      ],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": true,
+      "expected_page_cited": true,
+      "refusal_detected": false,
+      "correct_refusal": false,
+      "grounded_answer": "Arduino UNO R4 Minima使用的是R7FA4M1AB3CFM#AA0处理器，该处理器内嵌了一个48 MHz的Arm® Cortex®-M4微处理器。Flash容量为256 kB，SRAM容量为32 kB，EEPROM容量为8 kB。数字引脚（GPIO）数量为14个，模拟输入引脚（ADC）数量为6个，PWM引脚数量为6个。推荐输入电压范围是6-24 V。证据来源于[manual_arduino_uno_r4_minima.pdf, PDF p.2]。",
+      "generation_seconds": 3.22,
+      "gold_pages": [
+        2
+      ],
+      "required_fact_list": [
+        "48MHz Cortex-M4",
+        "256kB Flash",
+        "32kB SRAM",
+        "8kB EEPROM",
+        "14个数字引脚",
+        "6个模拟引脚",
+        "6个PWM引脚",
+        "6至24V"
+      ],
+      "manual_notes": "处理器、存储、引脚数和输入电压均正确",
+      "correct_fact_count": 8,
+      "total_required_facts": 8,
+      "completeness_score_0_to_2": 2,
+      "page_support_score_0_to_2": 2
+    },
+    {
+      "query_id": "U01",
+      "difficulty": "hard",
+      "domain": "financial_report",
+      "answerable": "false",
+      "query": "亚马逊2024年AWS业务的营业收入是多少？请引用对应财报页面。",
+      "expected_pdf": "",
+      "expected_pages": "",
+      "reference_answer": "语料中没有亚马逊2024年财报，应明确说明现有页面无法回答。",
+      "required_facts": "REFUSE_NO_EVIDENCE",
+      "is_answerable": false,
+      "retrieval_hit_at_k": false,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 17.25,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 223,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0223.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 16.875,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 92,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0092.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 16.125,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 31,
+          "image_path": "data/pages/finance_microsoft_2024/page_0031.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 16.0,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 333,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0333.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 15.75,
+          "pdf_filename": "finance_microsoft_2024.pdf",
+          "page_number": 33,
+          "image_path": "data/pages/finance_microsoft_2024/page_0033.jpg"
+        }
+      ],
+      "raw_answer": "证据不足，无法根据给定页面回答。",
+      "source_ids": [],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": false,
+      "expected_page_cited": false,
+      "refusal_detected": true,
+      "correct_refusal": true,
+      "grounded_answer": "证据不足，无法根据给定页面回答。",
+      "generation_seconds": 1.26,
+      "gold_pages": [],
+      "required_fact_list": [],
+      "manual_notes": "语料无亚马逊财报，模型正确拒答"
+    },
+    {
+      "query_id": "U02",
+      "difficulty": "hard",
+      "domain": "paper",
+      "answerable": "false",
+      "query": "GPT-5预训练使用了什么优化器、学习率和全局批大小？请引用对应论文页面。",
+      "expected_pdf": "",
+      "expected_pages": "",
+      "reference_answer": "语料中没有GPT-5训练论文，应明确说明现有页面无法回答。",
+      "required_facts": "REFUSE_NO_EVIDENCE",
+      "is_answerable": false,
+      "retrieval_hit_at_k": false,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 20.25,
+          "pdf_filename": "paper_clip.pdf",
+          "page_number": 4,
+          "image_path": "data/pages/paper_clip/page_0004.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 20.25,
+          "pdf_filename": "paper_donut.pdf",
+          "page_number": 8,
+          "image_path": "data/pages/paper_donut/page_0008.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 20.0,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 56,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0056.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 20.0,
+          "pdf_filename": "paper_donut.pdf",
+          "page_number": 25,
+          "image_path": "data/pages/paper_donut/page_0025.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 19.875,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 68,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0068.jpg"
+        }
+      ],
+      "raw_answer": "证据不足，无法根据给定页面回答。",
+      "source_ids": [],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": false,
+      "expected_page_cited": false,
+      "refusal_detected": true,
+      "correct_refusal": true,
+      "grounded_answer": "证据不足，无法根据给定页面回答。",
+      "generation_seconds": 1.26,
+      "gold_pages": [],
+      "required_fact_list": [],
+      "manual_notes": "语料无GPT-5训练论文，模型正确拒答"
+    },
+    {
+      "query_id": "U03",
+      "difficulty": "hard",
+      "domain": "public_report",
+      "answerable": "false",
+      "query": "这批报告中给出的法国2025年官方人口总数是多少？请引用包含该数字的页面。",
+      "expected_pdf": "",
+      "expected_pages": "",
+      "reference_answer": "现有报告页面没有提供法国2025年官方人口总数，应明确说明无法根据证据回答。",
+      "required_facts": "REFUSE_NO_EVIDENCE",
+      "is_answerable": false,
+      "retrieval_hit_at_k": false,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 20.5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 390,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0390.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 20.5,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 389,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0389.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 20.375,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 360,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0360.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 20.375,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 242,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0242.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 20.375,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 257,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0257.jpg"
+        }
+      ],
+      "raw_answer": "证据不足，无法根据给定页面回答。",
+      "source_ids": [],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": false,
+      "expected_page_cited": false,
+      "refusal_detected": true,
+      "correct_refusal": true,
+      "grounded_answer": "证据不足，无法根据给定页面回答。",
+      "generation_seconds": 1.26,
+      "gold_pages": [],
+      "required_fact_list": [],
+      "manual_notes": "语料无法国2025官方人口数据，模型正确拒答"
+    },
+    {
+      "query_id": "U04",
+      "difficulty": "hard",
+      "domain": "technical_manual",
+      "answerable": "false",
+      "query": "iPhone 16 Pro电池的额定容量和最大充电电流是多少？请引用对应硬件手册页面。",
+      "expected_pdf": "",
+      "expected_pages": "",
+      "reference_answer": "语料中没有iPhone 16 Pro硬件手册，应明确说明现有页面无法回答。",
+      "required_facts": "REFUSE_NO_EVIDENCE",
+      "is_answerable": false,
+      "retrieval_hit_at_k": false,
+      "hits": [
+        {
+          "rank": 1,
+          "score": 18.25,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 4,
+          "image_path": "data/pages/finance_apple_2024/page_0004.jpg"
+        },
+        {
+          "rank": 2,
+          "score": 18.25,
+          "pdf_filename": "finance_apple_2024.pdf",
+          "page_number": 24,
+          "image_path": "data/pages/finance_apple_2024/page_0024.jpg"
+        },
+        {
+          "rank": 3,
+          "score": 17.125,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 72,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0072.jpg"
+        },
+        {
+          "rank": 4,
+          "score": 16.75,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 92,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0092.jpg"
+        },
+        {
+          "rank": 5,
+          "score": 15.8125,
+          "pdf_filename": "report_ai_index_2025_zh.pdf",
+          "page_number": 70,
+          "image_path": "data/pages/report_ai_index_2025_zh/page_0070.jpg"
+        }
+      ],
+      "raw_answer": "证据不足，无法根据给定页面回答。",
+      "source_ids": [],
+      "invalid_source_ids": [],
+      "citation_format_valid": true,
+      "expected_document_cited": false,
+      "expected_page_cited": false,
+      "refusal_detected": true,
+      "correct_refusal": true,
+      "grounded_answer": "证据不足，无法根据给定页面回答。",
+      "generation_seconds": 1.27,
+      "gold_pages": [],
+      "required_fact_list": [],
+      "manual_notes": "语料无iPhone 16 Pro硬件手册，模型正确拒答"
+    }
+  ]
+}
